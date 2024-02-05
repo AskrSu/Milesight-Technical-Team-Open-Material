@@ -1,5 +1,20 @@
 # Frequency fix and hop SoP
 
+- [Frequency fix and hop SoP](#frequency-fix-and-hop-sop)
+  - [V1 version](#v1-version)
+    - [PC](#pc)
+    - [Phone](#phone)
+  - [V2 Version](#v2-version)
+  - [V3 Version](#v3-version)
+    - [Preparation:](#preparation)
+    - [STEP1](#step1)
+    - [STEP2](#step2)
+    - [STEP3](#step3)
+    - [STEP4](#step4)
+    - [STEP5](#step5)
+
+---
+
 ## V1 version
 
 Version V1 has been deprecated and all devices do not support version V1 fixed frequency.
@@ -24,10 +39,10 @@ If you can't connect normally, it may be that the debugging mode is turned on, p
     ```@DISABLE UNXX USB DEBUG@ ```
 
 3. If you need to upgrade the device, prepare the appropriate image file (e.g. xxx.bin) and perform the upgrade operation as follows:  
-    > 1. `Maintaince` Sidebar
-    > 2. `Upgrade` Page
-    > 3. `Browse` and select bin file
-    > 4. `Upgrade`
+    1. `Maintaince` Sidebar
+    2. `Upgrade` Page
+    3. `Browse` and select bin file
+    4. `Upgrade`
 4. Turn on the device, **poweron** button control in the upper right corner of the interface (skip if it is the word **reboot**)
 5. Modify the corresponding frequency, Data Rate(DR or SF Spreading Factor), and transmit power(TX Power).
 
@@ -65,6 +80,8 @@ If you can't connect normally, it may be that the debugging mode is turned on, p
    4. Select `TXPower` to `TXPower 0-16 dBm`
 7. After the write configuration is complete, the signal has been continuously sent at this time
 
+---
+
 ## V2 Version
 
 1. Connects to PC via USB or supplied serial cable，If the driver cannot be installed automatically，[Click me](https://www.silabs.com/documents/public/software/CP210x_VCP_Windows.zip)
@@ -100,6 +117,8 @@ Note that when no longer needed **must** send a command to close the tool.
 @DISABLE UNXX USB DEBUG@
 ```
 
+---
+
 ## V3 Version
 
 How to use the certificate program from Milesight
@@ -114,38 +133,38 @@ How to use the certificate program from Milesight
 
 Download the ZIP file: **Certification Tool**
 
-![img](/FAQ/Accessories/Certification/Sensor/img/1.png)
+![img](/Certification/Sensor/img/1.png)
 
 Open the file and find the **.exe** program: **certificationTools.exe**
 
-![img](/FAQ/Accessories/Certification/Sensor/img/2.png)
+![img](/Certification/Sensor/img/2.png)
 
-![img](/FAQ/Accessories/Certification/Sensor/img/3.png)
+![img](/Certification/Sensor/img/3.png)
 
 ### STEP2
 
 Connect the device’s USB port with your computer via a USB cable
 In the Windows Page, press `Ctrl+R` in the keyboard to call up the execute page, and input: `devmgmt.msc`
 
-![img](/FAQ/Accessories/Certification/Sensor/img/4.png)
+![img](/Certification/Sensor/img/4.png)
 
 You will find out a Port in the Device Management, when the USB cable is connected, there’s a corresponding COMx which stands for the serial port.
 
-![img](/FAQ/Accessories/Certification/Sensor/img/5.png)
+![img](/Certification/Sensor/img/5.png)
 
 ### STEP3
 
 Open the CertificateTools. The left area is recorded the parameters you’re gonna to choose.
 
-![img](/FAQ/Accessories/Certification/Sensor/img/6.png)
+![img](/Certification/Sensor/img/6.png)
 
-![img](/FAQ/Accessories/Certification/Sensor/img/7.png)
+![img](/Certification/Sensor/img/7.png)
 
-![img](/FAQ/Accessories/Certification/Sensor/img/8.png)
+![img](/Certification/Sensor/img/8.png)
 
 You can download [Milesight Toolbox](https://www.milesight.com/iot/resources/download-center/#software-platform) in your PC and check the **Spreading Factor** and the **TXpower**, or you can refer to [LoRa Alliance Regional Parameters](https://resources.lora-alliance.org/home/rp002-1-0-4-regional-parameters) or [download](https://content.cdntwrk.com/files/aT0xNDc5NTI1JnY9MSZpc3N1ZU5hbWU9cnAwMDItMS0wLTQtcmVnaW9uYWwtcGFyYW1ldGVycyZjbWQ9ZCZzaWc9NzE5M2I2ZTJjOTNhYWJlNDgwOTg0MDZjMTc5NGNlNmM%253D).
 
-![img](/FAQ/Accessories/Certification/Sensor/img/9.png)
+![img](/Certification/Sensor/img/9.png)
 
 Here are the translation:
 |Chinese|English|Explanation|Input/Select|
@@ -176,7 +195,7 @@ Here are the translation:
 
 After finishing the parameter settings, we can start the certificate mode and fixed frequency.
 
-![img](/FAQ/Accessories/Certification/Sensor/img/10.png)
+![img](/Certification/Sensor/img/10.png)
 
 1. Click **启动认证模式**: `Start-certified` to turn on this tool.
 2. Click **开启定频**: `freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000` to start sending packet with a fixed frequency.
@@ -189,8 +208,8 @@ After finishing the parameter settings, we can start the certificate mode and fi
 
 Especially, you can check the log via clicking “查看日志”
 
-![img](/FAQ/Accessories/Certification/Sensor/img/11.png)
+![img](/Certification/Sensor/img/11.png)
 
-![img](/FAQ/Accessories/Certification/Sensor/img/12.png)
+![img](/Certification/Sensor/img/12.png)
 
 -END-
