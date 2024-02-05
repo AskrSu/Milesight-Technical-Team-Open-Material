@@ -29,6 +29,6 @@ For the products under warranty, we can offer the RMA service, but would need yo
    - Is it DOA(Dead on Arrival) or not ?
    - Get the debug log if the device is still alive but just worked abnormally
      - For routers and lorawan gatewates: Enable Logs : [IoT Support (milesight-iot.com)](https://support.milesight-iot.com/support/solutions/articles/73000514103-enable-logs)
-     - For sensors and controllers :[ How to Get Milesight Node Log File : IoT Support (milesight-iot.com)](https://support.milesight-iot.com/support/solutions/articles/73000514263-how-to-get-milesight-node-log-file)
+     - For sensors and controllers :[How to Get Milesight Node Log File : IoT Support (milesight-iot.com)](https://support.milesight-iot.com/support/solutions/articles/73000514263-how-to-get-milesight-node-log-file)
 2. Reporting the issue to Milesight Technical Team: Submit a ticket or send an email to <iot.support@milesight.com> with the issue data in step1. We will dispose the issue and contact with you if need extral issue data and give you the final solution after getting internal RMA approval.
 3. Our sales will arrange the hardware delivery, you can get the process update from sales.
