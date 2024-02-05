@@ -6,7 +6,7 @@
     - [Phone](#phone)
   - [V2 Version](#v2-version)
   - [V3 Version](#v3-version)
-    - [Preparation:](#preparation)
+    - [Preparation](#preparation)
     - [STEP1](#step1)
     - [STEP2](#step2)
     - [STEP3](#step3)
@@ -121,9 +121,14 @@ Note that when no longer needed **must** send a command to close the tool.
 
 ## V3 Version
 
-How to use the certificate program from Milesight Certification Tool?
+How to use the certificate tool from Milesight Certification?
 
-### Preparation:
+Those are the devices known support V3 certification Tool:
+
+- UC500
+- 
+
+### Preparation
 
 1. Device
 2. USB cable

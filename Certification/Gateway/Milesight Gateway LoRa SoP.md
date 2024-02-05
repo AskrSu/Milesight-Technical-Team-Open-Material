@@ -1,7 +1,7 @@
-# Milesight Gateway LoRa Frequency Fix and Hop
+# Milesight Gateway LoRa SoP for Certification
 
 Author: Askr (<askr.su@milesight.com>)  
-Last Update: 2024/1/18
+Last Update: 2024/1/22
 
 ---
 
@@ -24,7 +24,7 @@ Total TX power = TX power on LoRa Chip + Antenna Gain
 3. Using the following info to access system
    - IP: `192.168.23.150`
    - Username: `root`
-   - Password: `LoRaWAN@2018` or Nothing
+   - Password: Contact our Technical Support Team
 4. Once access the system, use the following commands to operate RF test:
    1. Stop the lora packet forwarder process before start testing.
 
@@ -102,7 +102,7 @@ Antenna Gain is
 3. Using the following info to access system
    - IP: `192.168.23.150`
    - Username: `root`
-   - Password: `LoRaWAN@2018` or Nothing
+   - Password: Contact our Technical Support Team
 4. Enter the `vi /etc/quagga/lora/local_conf.json` command to enter file.
 5. Enter "`i`" to enter **write mode**, and then modify the `antenna_gain` parameter.
    - Write a non-negative value only, so the TX power from chip interface will minus this value.
