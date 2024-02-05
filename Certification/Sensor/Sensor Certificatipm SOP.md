@@ -1,7 +1,7 @@
 # Frequency fix and hop SoP
 
 - [Frequency fix and hop SoP](#frequency-fix-and-hop-sop)
-  - [V1 version](#v1-version)
+  - [~~V1 version~~](#v1-version)
     - [PC](#pc)
     - [Phone](#phone)
   - [V2 Version](#v2-version)
@@ -15,7 +15,7 @@
 
 ---
 
-## V1 version
+## ~~V1 version~~
 
 Version V1 has been deprecated and all devices do not support version V1 fixed frequency.
 
@@ -121,13 +121,13 @@ Note that when no longer needed **must** send a command to close the tool.
 
 ## V3 Version
 
-How to use the certificate program from Milesight
+How to use the certificate program from Milesight Certification Tool?
 
 ### Preparation:
 
 1. Device
 2. USB cable
-3. Milesight **Certificate Tool** Software
+3. Milesight **Certificate Tool** Software [Find me here](/Certification/Sensor/Sensor%20Certification%20Tool/)
 
 ### STEP1
 
