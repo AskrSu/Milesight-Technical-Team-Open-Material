@@ -95,8 +95,6 @@ Total TX power = TX power on LoRa Chip + Antenna Gain
 
 This is a method of configure the TX power in the Packet Forwarder Level.
 
-Antenna Gain is  
-
 1. Login the gateway's web interface, enable the SSH access in System->General Settings -> Access Service, then Click Save.
 2. Login into gateway backend using **Putty**, or other ssh tools.
 3. Using the following info to access system
