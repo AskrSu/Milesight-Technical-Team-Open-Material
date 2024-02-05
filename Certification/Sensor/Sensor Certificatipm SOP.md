@@ -1,6 +1,7 @@
 # Frequency fix and hop SoP
 
 - [Frequency fix and hop SoP](#frequency-fix-and-hop-sop)
+  - [Device support list](#device-support-list)
   - [~~V1 version~~](#v1-version)
     - [PC](#pc)
     - [Phone](#phone)
@@ -12,6 +13,31 @@
     - [STEP3](#step3)
     - [STEP4](#step4)
     - [STEP5](#step5)
+
+---
+
+## Device support list
+
+Those are the devices known support V3 certification Tool:
+
+- UC500
+- EM320-TH
+- EM300
+- WS50X
+- WS301
+- WS202
+- EM500 V2
+- AM103
+
+Those are the devices known not support V3, only V2.
+
+- UC100
+- EM320-TILT
+
+Those are the devices know only support V1
+
+- AM103
+- AM102
 
 ---
 
@@ -122,11 +148,6 @@ Note that when no longer needed **must** send a command to close the tool.
 ## V3 Version
 
 How to use the certificate tool from Milesight Certification?
-
-Those are the devices known support V3 certification Tool:
-
-- UC500
-- 
 
 ### Preparation
 
