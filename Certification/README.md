@@ -6,10 +6,14 @@ Before you started, please make sure contacting your corresponding sales represe
 
 ## Gateway - UG56/6X
 
-- [LoRa Frequency Fix and Hop Operation](/Certification/Gateway/Milesight%20Gateway%20TX%20Power%20Configuration.md)
-- [WiFi Frequency FIx and Hop Operation]()
+
+
+- [Gateway LoRa SOP](/Certification/Gateway/Milesight%20Gateway%20TX%20Power%20Configuration.md)
+- [Gateway LoRa SOP(Building)]()
 
 ## Sensors 
 
-- [SOP of sensors](/Certification/Sensor/Sensor%20Certificatipm%20SOP.md)
+You can use the SOP to do frequency fixing and hopping operation.
+
+- [Sensor SOP](/Certification/Sensor/Sensor%20Certificatipm%20SOP.md)
 - [Certification Tools for V3 sensors](/Certification/Sensor/Sensor%20Certification%20Tool/)
