@@ -1,0 +1,3986 @@
+[2023-04-25 16:33:03] [thread 14308] ----------------------------------------start----------------------------------------
+[2023-04-25 16:33:06] [thread 14308] 串口已连接!
+[2023-04-25 16:33:06] [thread 14308] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:33:08] [thread 14308] 发送：2023-04-25 16:33:08start-certified
+
+[2023-04-25 16:33:08] [thread 14308] 已开启认证模式
+[2023-04-25 16:33:09] [thread 14308] �����{*���3~�b	��-���#`B�2ޯ8�	8듙��I�~���9`���(,�����Y�����-�gl�K^�n�G`���-�/Dhg���3@�Y�e4'z"�,�^��� ��n�퐴:���|�-Е�o׿E�� "��yݖR�ީޔU-��}��ųB�g��0؜v��1�8�X�ME0+ɔwWй�"�i��Y²!n���H���/��X� �ڣ��H�ϊ�ե
+[2023-04-25 16:33:09] [thread 14308] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:33:10] [thread 14308] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:33:10] [thread 14308] 定频状态中
+[2023-04-25 16:33:12] [thread 14308] 发送定频lora信号成功
+[2023-04-25 16:33:12] [thread 14308] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:33:13] [thread 14308] 发送：2023-04-25 16:33:13freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-25 16:33:13] [thread 14308] 跳频状态中
+[2023-04-25 16:33:16] [thread 14308] d2d send freq = 923300000
+[2023-04-25 16:33:16] [thread 14308] 发送跳频lora信号失败 923300000
+[2023-04-25 16:33:16] [thread 14308] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:33:20] [thread 14308] =========
+current time = 53032, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	475	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[
+[2023-04-25 16:33:22] [thread 14308] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:33:22] [thread 14308] 定频状态中
+[2023-04-25 16:33:24] [thread 14308] 发送定频lora信号失败
+[2023-04-25 16:33:24] [thread 14308] error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:33:26] [thread 14308] 发送：2023-04-25 16:33:26freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-25 16:33:26] [thread 14308] 跳频状态中
+[2023-04-25 16:33:28] [thread 14308] d2d send freq = 923300000
+[2023-04-25 16:33:28] [thread 14308] 发送跳频lora信号失败 923300000
+[2023-04-25 16:33:28] [thread 14308] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:0 m:1 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:33:30] [thread 14308] 发送：2023-04-25 16:33:30freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-25 16:33:30] [thread 14308] 跳频状态中
+[2023-04-25 16:33:32] [thread 14308] =========
+current time = 66010, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	472	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[
+[2023-04-25 16:33:34] [thread 14308] 发送：2023-04-25 16:33:34freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-25 16:33:34] [thread 14308] 跳频状态中
+[2023-04-25 16:33:37] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:33:37] [thread 14308] 发送跳频lora信号失败 923400000
+[2023-04-25 16:33:37] [thread 14308] error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] freq-hopping-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+, buf_size:113
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d s
+[2023-04-25 16:33:41] [thread 14308] 发送跳频lora信号失败
+[2023-04-25 16:33:41] [thread 14308] end started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] freq-hopping-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+, buf_size:113
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d 
+[2023-04-25 16:33:45] [thread 14308] 发送跳频lora信号失败
+[2023-04-25 16:33:45] [thread 14308]  = 0
+=================================================
+current time = 78984, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	472	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+==
+[2023-04-25 16:33:49] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:33:49] [thread 14308] 发送跳频lora信号失败 923400000
+[2023-04-25 16:33:49] [thread 14308] =OnTxNextPacketTimerEvent2
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:33:53] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:33:53] [thread 14308] 发送跳频lora信号失败 923400000
+[2023-04-25 16:33:53] [thread 14308] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:33:57] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:33:57] [thread 14308] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 91966, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	
+[2023-04-25 16:34:02] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:34:02] [thread 14308] 发送跳频lora信号失败 923400000
+[2023-04-25 16:34:02] [thread 14308] 24	1718	2
+watchdogTask   	X	24	121	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	472	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d
+[2023-04-25 16:34:06] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:34:06] [thread 14308] 发送跳频lora信号失败 923400000
+[2023-04-25 16:34:06] [thread 14308] 2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:34:10] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:34:10] [thread 14308] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 104949, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R
+[2023-04-25 16:34:14] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:34:14] [thread 14308] 发送跳频lora信号失败 923400000
+[2023-04-25 16:34:14] [thread 14308] 	24	559	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	467	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] 
+[2023-04-25 16:34:18] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:34:18] [thread 14308] 发送跳频lora信号失败 923400000
+[2023-04-25 16:34:18] [thread 14308] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:34:22] [thread 14308] d2d send freq = 923400000
+[2023-04-25 16:34:22] [thread 14308] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 117931, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R
+[2023-04-25 16:34:22] [thread 14308] 发送：2023-04-25 16:34:22start-certified
+
+[2023-04-25 16:34:23] [thread 14308] 已开启认证模式
+[2023-04-25 16:34:24] [thread 14308] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:34:24] [thread 14308] 定频状态中
+[2023-04-25 16:34:26] [thread 14308] 发送定频lora信号失败
+[2023-04-25 16:34:26] [thread 14308] 	24	1718	2
+watchdogTask   	X	24	121	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	467	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] 
+[2023-04-25 16:34:26] [thread 14308] 发送定频lora信号失败
+[2023-04-25 16:34:26] [thread 14308] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+h:0 m:2 s:0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] start-certified-enable
+[debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:74
+
+[2023-04-25 16:34:29] [thread 14308] 发送：2023-04-25 16:34:29stop-certified
+
+[2023-04-25 16:34:29] [thread 14308] 已退出认证测试
+[2023-04-25 16:35:02] [thread 3796] ----------------------------------------start----------------------------------------
+[2023-04-25 16:35:11] [thread 3796] 串口已连接!
+[2023-04-25 16:35:11] [thread 3796] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:35:13] [thread 3796] 发送：2023-04-25 16:35:13start-certified
+
+[2023-04-25 16:35:13] [thread 3796] 已开启认证模式
+[2023-04-25 16:35:13] [thread 3796] [debug] start-certified-disable
+###### D2dEnable:  0
+###### D2DKey:  5572404c696e6b4c6f52613230313823
+d2d appskey:da898db9879b4c999cb75f8766003ab9
+d2d nwkskey:c1509e7f6eee58455767aa6a28d62b12
+[debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:35:13] [thread 3796] =================================================
+current time = 169854, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+defaultTask    	B	24	559	1
+modbusFrontEndT	B	24	467	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 16:35:17] [thread 3796] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:35:17] [thread 3796] 定频状态中
+[2023-04-25 16:35:22] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:35:22] [thread 3796] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:35:26] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:35:26] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+h:0 m:3 s:0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:35:28] [thread 3796] 发送：2023-04-25 16:35:28stop-certified
+
+[2023-04-25 16:35:28] [thread 3796] 已退出认证测试
+[2023-04-25 16:35:30] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 182833, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1718	2
+watchdogTask   	X	24	121	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	467	8
+Tmr Svc     
+[2023-04-25 16:35:36] [thread 3796] 发送：2023-04-25 16:35:36start-certified
+
+[2023-04-25 16:35:36] [thread 3796] 已开启认证模式
+[2023-04-25 16:35:37] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:35:37] [thread 3796]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] start-certified-disable
+###### D2dEnable:  0
+###### D2DKey:  5572404c696e6b4c6f52613230313823
+d2d appskey:da898db9879b4c999cb75f8766003ab9
+d2d nwkskey:c1509e7f6eee58455767aa6a28d62b12
+[debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 
+[2023-04-25 16:35:37] [thread 3796] 0200
+buf:start-certified
+, buf_size:16
+
+[2023-04-25 16:35:39] [thread 3796] =================================================
+current time = 195809, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+
+[2023-04-25 16:35:39] [thread 3796] watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+defaultTask    	B	24	559	1
+modbusFrontEndT	B	24	467	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 16:35:52] [thread 3796] =================================================
+current time = 208791, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	559	1
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	467	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 16:35:52] [thread 3796] =================================================
+
+[2023-04-25 16:35:55] [thread 3796] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:35:55] [thread 3796] 定频状态中
+[2023-04-25 16:35:59] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:35:59] [thread 3796] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:36:03] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:36:03] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:36:07] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 221769, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1718	2
+IDLE           	R	0	107	
+[2023-04-25 16:36:11] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:36:11] [thread 3796] 5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	467	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:36:15] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:36:15] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:36:19] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 234755, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1718	2
+watchdogTask   	X	24	121	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	
+[2023-04-25 16:36:21] [thread 3796] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 16:36:21] [thread 3796] 定频状态中
+[2023-04-25 16:36:24] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:36:24] [thread 3796] 5
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	467	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:36:24] [thread 3796] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+, buf_size:59
+
+[2023-04-25 16:36:24] [thread 3796] h:0 m:4 s:0
+
+[2023-04-25 16:36:33] [thread 3796] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 16:36:33] [thread 3796] 定频状态中
+[2023-04-25 16:36:34] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 247736, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+communicateTask	R	24	1718	2
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	467
+[2023-04-25 16:36:34] [thread 3796] 发送定频lora信号失败
+[2023-04-25 16:36:34] [thread 3796] 	8
+IDLE           	R	0	107	5
+workTask       	B	24	1924	3
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+, buf_size:59
+
+[2023-04-25 16:36:40] [thread 3796] 发送：2023-04-25 16:36:40freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-25 16:36:40] [thread 3796] 跳频状态中
+[2023-04-25 16:36:44] [thread 3796] d2d send freq = 923300000
+[2023-04-25 16:36:44] [thread 3796] 发送跳频lora信号失败 923300000
+[2023-04-25 16:36:44] [thread 3796] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:37:11] [thread 20772] ----------------------------------------start----------------------------------------
+[2023-04-25 16:37:14] [thread 20772] 串口已连接!
+[2023-04-25 16:37:14] [thread 20772] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:37:16] [thread 20772] 发送：2023-04-25 16:37:16start-certified
+
+[2023-04-25 16:37:16] [thread 20772] 已开启认证模式
+[2023-04-25 16:37:17] [thread 20772] �����{
+���w��B	��-����`B�2߯8�	8j���I�~���9`����(,����"�X��ޅ�-�gl�	J^�n�G`���-�oDhg���3@��Y�e4/�"��^��Ǡ$�~�퐰:���|�-���m׿G�� "��yݖS�ީ?��U-��}���J�g�_�0؜v��q�2�X�M0+ɔwSШ�"����{²!n���H���/��X� �Z���H����U�
+[2023-04-25 16:37:17] [thread 20772] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:37:17] [thread 20772] ===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:37:18] [thread 20772] 
+###### ===== MCPS-Confirm ==== ######
+STATUS      : OK
+
+###### ===== UPLINK FRAME 3 ==== ######
+
+[2023-04-25 16:37:18] [thread 20772] 
+CLASS       : A
+
+TX PORT     : 85
+TX DATA     : UNCONFIRMED
+FF 0B FF FF 01 01 FF 16 64 45 D1 13 91 78 00 00 
+FF 09 02 00 FF 0A 01 03 
+
+DATA RATE   : DR_2
+U/L FREQ    : 868100000
+TX POWER    : 0
+CHANNEL MASK: 0007 
+
+
+###### ===== MLME-Confirm ==== ######
+STATUS                  : Rx 2 timeout
+IsTxTimeoutTimerRunning : false
+into MlmeConfirm LoRaBlockLpmDuringTask
+
+[2023-04-25 16:37:19] [thread 20772] regular report timer event!
+[debug] s_lora_sending = 0
+[debug] s_lora_sending = 0
+[debug] s_lora_sending = 0
+[debug] s_lora_sending = 0
+[debug] s_lora_sending = 0
+[debug] s_lora_sending = 0
+[debug] s_lora_sending = 0
+[debug] origin period = 1200
+[debug] random period = 485
+
+[2023-04-25 16:37:20] [thread 20772] ===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:37:23] [thread 20772] =================================================
+current time = 13067, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5760
+
+taskname    taskstatus    priority    leftstack    tasknum
+workTask       	R	24	1899	3
+watchdogTask   	X	24	152	4
+communicateTask	R	24	1696	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	475	8
+defaultTask    	B	24	636	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+
+[2023-04-25 16:37:23] [thread 20772] =================================================
+
+[2023-04-25 16:37:33] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:37:33] [thread 20772] 定频状态中
+[2023-04-25 16:37:37] [thread 20772] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 26054, lora_state = 1
+FreeHeapSize = 5760, MinimumE
+[2023-04-25 16:37:42] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:37:42] [thread 20772] verFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1696	2
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	467	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+
+[2023-04-25 16:37:46] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:37:46] [thread 20772] ===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:37:50] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 39038, lora_state = 0
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1696	2
+IDLE           	R	0	107	5
+[2023-04-25 16:37:54] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:37:54] [thread 20772] 
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	467	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:37:59] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:37:59] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:38:02] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:02] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+=================================================
+current time = 52010, lora_state = 0
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1696	2
+IDLE           	R	0	107	5
+m
+[2023-04-25 16:38:06] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:06] [thread 20772] odbusFrontEndT	B	24	467	8
+workTask       	B	24	1899	3
+defaultTask    	B	24	559	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:38:11] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:11] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:38:15] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:15] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:0 m:1 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:38:19] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 64996, lora_state = 0
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1696	2
+watchdogTask   	X	24	136	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	467	8
+modbusBackEnd
+[2023-04-25 16:38:23] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:23] [thread 20772] Ta	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:38:27] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:27] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:38:31] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 77970, lora_state = 0
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1696	2
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	467	8
+Tmr Svc      
+[2023-04-25 16:38:35] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:35] [thread 20772]   	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:38:37] [thread 20772] 发送：2023-04-25 16:38:37stop-certified
+
+[2023-04-25 16:38:37] [thread 20772] 已退出认证测试
+[2023-04-25 16:38:40] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:38:40] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+
+[2023-04-25 16:39:07] [thread 20772] 串口已断开!
+[2023-04-25 16:39:18] [thread 20772] 串口已连接!
+[2023-04-25 16:39:18] [thread 20772] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:39:39] [thread 20772] 发送：2023-04-25 16:39:39start-certified
+
+[2023-04-25 16:39:39] [thread 20772] 已开启认证模式
+[2023-04-25 16:39:40] [thread 20772] �����{
+���3��b	��-���#`@�2��8�	8k���I�~���9`����(,�����X��ߧ�-�g|�K^�n�g`���-�.Dhg2��3@�[�m4'�"Ѽ�V��� $�|�퐴2���|�-ѕ�m׿U�� "���ݖ�ީ?��U-��}���j�g�_�p؜��́5�8�X�M%ɔwSԸ�"�i��y²#~���H��/��X3� �ث�D�H����U�
+[2023-04-25 16:39:40] [thread 20772] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:39:52] [thread 20772] =================================================
+current time = 39036, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1694	2
+watchdogTask   	X	24	136	4
+modbusFrontEndT	R	24	475	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	636	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 16:39:55] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 16:39:55] [thread 20772] 定频状态中
+[2023-04-25 16:40:00] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:40:00] [thread 20772] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+, buf_size:59
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:40:05] [thread 20772] =================================================
+current time = 52012, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1694	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	559	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	475	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 16:40:10] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:40:10] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:40:14] [thread 20772] h:0 m:1 s:0
+
+[2023-04-25 16:40:20] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 64995, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+communicateTask	R	24	1694	2
+watchdogTask   	X	24	136	4
+modbusFrontEndT	R	24	475	
+[2023-04-25 16:40:20] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:40:20] [thread 20772] 8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:40:23] [thread 20772] 串口已断开!
+[2023-04-25 16:40:46] [thread 20772] 串口已连接!
+[2023-04-25 16:40:46] [thread 20772] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:40:57] [thread 20772] 发送：2023-04-25 16:40:57start-certified
+
+[2023-04-25 16:40:57] [thread 20772] 已开启认证模式
+[2023-04-25 16:40:57] [thread 20772] �tH�y�Ev��3;���`��8�7�'#$�]e�k '��y?Q�.��e����,�����D��_�7��� ��iA�<�4���0�I
+�?a�zw��D��j0��\ 1��K�@
+����A�4r��?����fۇ}F�q�ww�W}���洨(����Jf��zS�$��j�ZvE�f���P����3�-�Ӎ/#�;z�g�0�k\��YAx*�׃-�TC!����#	�����x<t�����%��k��jf���ۖa	�rl�`M`������lS��
+�w���=H�頱}���!�_�R^�"7�=���`���'ϙ�$l��v���
+[2023-04-25 16:40:57] [thread 20772] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:41:06] [thread 20772] =================================================
+current time = 27073, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	636	1
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	469	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 16:41:06] [thread 20772] =================================================
+
+[2023-04-25 16:41:19] [thread 20772] =================================================
+current time = 40052, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	636	1
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	469	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 16:41:25] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 16:41:25] [thread 20772] 定频状态中
+[2023-04-25 16:41:29] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:41:29] [thread 20772] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+, buf_size:59
+d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:41:32] [thread 20772] =================================================
+current time = 53032, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	469	8
+workTask       	B	24	1924	3
+defaultTask    	B	24	561	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 16:41:32] [thread 20772] =================================================
+
+[2023-04-25 16:41:39] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:41:39] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:41:39] [thread 20772] h:0 m:1 s:0
+
+[2023-04-25 16:41:44] [thread 20772] =================================================
+current time = 66016, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+
+[2023-04-25 16:41:45] [thread 20772] taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+workTask       	R	24	1924	3
+watchdogTask   	X	24	136	4
+modbusFrontEndT	R	24	469	8
+IDLE           	R	0	107	5
+defaultTask    	B	24	559	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 16:41:47] [thread 20772] 串口已断开!
+[2023-04-25 16:42:57] [thread 20772] 串口已连接!
+[2023-04-25 16:42:57] [thread 20772] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:43:02] [thread 20772] =================================================
+current time = 130916, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	469	8
+workTask       	B	24	1924	3
+defaultTask    	B	24	559	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+current time = 143892, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	136	4
+modbusFrontEndT	R	24	469	8
+IDLE           	R	0	107	5
+defaultTask    	B	24	559	1
+workTask       	B	24	1924	3
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 16:43:07] [thread 20772] 串口已断开!
+[2023-04-25 16:47:20] [thread 20772] 串口已连接!
+[2023-04-25 16:47:21] [thread 20772] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:47:24] [thread 20772] 发送：2023-04-25 16:47:24start-certified
+
+[2023-04-25 16:47:24] [thread 20772] 已开启认证模式
+[2023-04-25 16:47:24] [thread 20772] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:47:30] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 16:47:30] [thread 20772] 定频状态中
+[2023-04-25 16:47:34] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:47:35] [thread 20772] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+, buf_size:59
+d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:47:35] [thread 20772] =================================================
+current time = 416520, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	129	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	468	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 16:47:39] [thread 20772] h:0 m:7 s:0
+
+[2023-04-25 16:47:45] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:47:45] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:47:48] [thread 20772] =================================================
+current time = 429507, lora_state = 1
+
+[2023-04-25 16:47:48] [thread 20772] FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	129	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1924	3
+modbusFrontEndT	B	24	468	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 16:47:55] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:47:55] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:48:25] [thread 20772] 发送：2023-04-25 16:48:25stop-certified
+
+[2023-04-25 16:48:25] [thread 20772] 已退出认证测试
+[2023-04-25 16:48:37] [thread 20772] 发送：2023-04-25 16:48:37start-certified
+
+[2023-04-25 16:48:37] [thread 20772] 已开启认证模式
+[2023-04-25 16:48:41] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 16:48:41] [thread 20772] 定频状态中
+[2023-04-25 16:49:07] [thread 20772] 串口已断开!
+[2023-04-25 16:49:10] [thread 20772] 串口已连接!
+[2023-04-25 16:49:10] [thread 20772] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:49:11] [thread 20772] 发送：2023-04-25 16:49:11start-certified
+
+[2023-04-25 16:49:11] [thread 20772] 已开启认证模式
+[2023-04-25 16:49:11] [thread 20772] ����_{
+���s~�R	��,���#`B�2ޯ8�8듙��I�~���9`�����(,����"�X��ޥ�-�gd�K^�~�G`���-�/Dhg���3@�Y�e4'�"���V��� $�~����2���t�)���}׿E�� "���ݖ�ީ_ޔU-��}���B�g�_�0Ȝ���5�8�X�M%0+ɔwSԹ�"�i��²!n���H��/��h3� �ڣ�D�H����W�`�����d@�A���A��6n�ჼ�4���\Rjl�8�D*��e|��5&F�;)� =��- ���wMj�?�s��y����Quړ2��?��`�8s�w�Of[	&�o�>1��w�
+[2023-04-25 16:49:11] [thread 20772] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:49:13] [thread 20772] =================================================
+current time = 52016, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1694	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	475	8
+workTask       	B	24	1899	3
+defaultTask    	B	24	636	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 16:49:13] [thread 20772] =================================================
+
+[2023-04-25 16:49:16] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 16:49:16] [thread 20772] 定频状态中
+[2023-04-25 16:49:21] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:49:21] [thread 20772] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+, buf_size:59
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:49:22] [thread 20772] h:0 m:1 s:0
+
+[2023-04-25 16:49:26] [thread 20772] =================================================
+current time = 64995, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	136	4
+communicateTask	R	24	1694	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	475	8
+workTask       	B	24	1899	3
+defaultTask    	B	24	559	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+
+[2023-04-25 16:49:26] [thread 20772] =================================================
+
+[2023-04-25 16:49:27] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:49:27] [thread 20772] 定频状态中
+[2023-04-25 16:49:31] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:49:31] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:49:35] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:49:35] [thread 20772] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:49:37] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 100000
+
+[2023-04-25 16:49:37] [thread 20772] 定频状态中
+[2023-04-25 16:49:39] [thread 20772] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 77971, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1694	2
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	136	4
+workTask       	R	24	1899
+[2023-04-25 16:49:39] [thread 20772] 发送定频lora信号失败
+[2023-04-25 16:49:39] [thread 20772] 	3
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	475	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 100000
+, buf_size:60
+
+[2023-04-25 16:49:44] [thread 20772] 发送：2023-04-25 16:49:44freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-25 16:49:44] [thread 20772] 跳频状态中
+[2023-04-25 16:49:44] [thread 20772] [debug] freq-hopping-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+, buf_size:113
+
+[2023-04-25 16:49:47] [thread 20772] 发送：2023-04-25 16:49:47stop-certified
+
+[2023-04-25 16:49:47] [thread 20772] 已退出认证测试
+[2023-04-25 16:49:48] [thread 20772] 发送：2023-04-25 16:49:48start-certified
+
+[2023-04-25 16:49:48] [thread 20772] 已开启认证模式
+[2023-04-25 16:49:48] [thread 20772] [debug] start-certified-disable
+###### D2dEnable:  0
+###### D2DKey:  5572404c696e6b4c6f52613230313823
+d2d appskey:da898db9879b4c999cb75f8766003ab9
+d2d nwkskey:c1509e7f6eee58455767aa6a28d62b12
+[debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+, buf_size:16
+
+[2023-04-25 16:49:48] [thread 20772] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 100000
+
+[2023-04-25 16:49:48] [thread 20772] 定频状态中
+[2023-04-25 16:49:48] [thread 20772] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 100000
+, buf_size:60
+
+[2023-04-25 16:49:49] [thread 20772] 发送：2023-04-25 16:49:49freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-25 16:49:49] [thread 20772] 跳频状态中
+[2023-04-25 16:49:49] [thread 20772] [debug] freq-hopping-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+, buf_size:113
+
+[2023-04-25 16:54:39] [thread 22352] ----------------------------------------start----------------------------------------
+[2023-04-25 16:54:58] [thread 5492] ----------------------------------------start----------------------------------------
+[2023-04-25 16:55:01] [thread 5492] 串口已连接!
+[2023-04-25 16:55:01] [thread 5492] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 16:55:02] [thread 5492] 发送：2023-04-25 16:55:02start-certified
+
+[2023-04-25 16:55:02] [thread 5492] 已开启认证模式
+[2023-04-25 16:55:05] [thread 5492] =================================================
+current time = 90958, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 402488, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R
+[2023-04-25 16:55:05] [thread 5492] 	24	1694	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] start-certified-enable
+[debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 16:55:11] [thread 5492] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:55:11] [thread 5492] 定频状态中
+[2023-04-25 16:55:15] [thread 5492] 发送定频lora信号失败
+[2023-04-25 16:55:15] [thread 5492] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:55:20] [thread 5492] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 415467, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1694	2
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc     
+[2023-04-25 16:55:24] [thread 5492] 发送定频lora信号失败
+[2023-04-25 16:55:24] [thread 5492]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+h:0 m:7 s:0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:55:28] [thread 5492] 发送定频lora信号失败
+[2023-04-25 16:55:28] [thread 5492] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:55:32] [thread 5492] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 428446, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1694	2
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 16:55:36] [thread 5492] 发送定频lora信号失败
+[2023-04-25 16:55:36] [thread 5492] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:55:40] [thread 5492] 发送定频lora信号失败
+[2023-04-25 16:55:40] [thread 5492] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 16:55:44] [thread 5492] 发送：2023-04-25 16:55:44stop-certified
+
+[2023-04-25 16:55:44] [thread 5492] 已退出认证测试
+[2023-04-25 16:55:44] [thread 5492] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 441424, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1694	2
+defaultTask    	R	24	559	1
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463
+[2023-04-25 16:55:44] [thread 5492] 发送定频lora信号失败
+[2023-04-25 16:55:44] [thread 5492] 	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] start-certified-disable
+###### D2dEnable:  0
+###### D2DKey:  5572404c696e6b4c6f52613230313823
+d2d appskey:da898db9879b4c999cb75f8766003ab9
+d2d nwkskey:c1509e7f6eee58455767aa6a28d62b12
+buf:stop-certified, buf_size:14
+
+[2023-04-25 16:55:54] [thread 5492] 发送：2023-04-25 16:55:54start-certified
+
+[2023-04-25 16:55:54] [thread 5492] 已开启认证模式
+[2023-04-25 16:55:54] [thread 5492] [debug] start-certified-enable
+[debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+, buf_size:16
+
+[2023-04-25 16:55:55] [thread 5492] =================================================
+current time = 454412, lora_state = 5
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1694	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+
+[2023-04-25 16:55:55] [thread 5492] =================================================
+
+[2023-04-25 16:56:07] [thread 5492] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 16:56:07] [thread 5492] 定频状态中
+[2023-04-25 16:56:11] [thread 5492] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 467394, lora_state = 5
+FreeHeapSize = 5760, Minimum
+[2023-04-25 16:56:15] [thread 5492] 发送定频lora信号失败
+[2023-04-25 16:56:15] [thread 5492] EverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1694	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	559	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0
+[2023-04-25 17:00:53] [thread 16232] ----------------------------------------start----------------------------------------
+[2023-04-25 17:00:58] [thread 16232] 串口已连接!
+[2023-04-25 17:00:58] [thread 16232] 发送@ENABLE UNXX UART DEBUG@
+[2023-04-25 17:01:00] [thread 16232] 发送：2023-04-25 17:01:00start-certified
+
+[2023-04-25 17:01:00] [thread 16232] 已开启认证模式
+[2023-04-25 17:01:00] [thread 16232] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+buf:start-certified
+T DEBUG@, buf_size:16
+
+[2023-04-25 17:01:01] [thread 16232] h:17 m:1 s:0
+
+[2023-04-25 17:01:05] [thread 16232] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-25 17:01:05] [thread 16232] 定频状态中
+[2023-04-25 17:01:09] [thread 16232] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+, buf_size:58
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 155861, lora_state = 5
+FreeHeapSize = 5760, Minimum
+[2023-04-25 17:01:13] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:13] [thread 16232] EverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	129	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0
+[2023-04-25 17:01:17] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:17] [thread 16232] ]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:01:21] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:21] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:01:25] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 168841, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	129	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+modbusBackEn
+[2023-04-25 17:01:30] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:30] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:01:34] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:34] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:01:38] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 181818, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	129	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+Tmr Svc     
+[2023-04-25 17:01:42] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:42] [thread 16232]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:01:46] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:46] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:01:47] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:01:47] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:01:52] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 194802, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	129	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+modbusBackEn
+[2023-04-25 17:01:56] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:01:56] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:00] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:00] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 207782, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	129	4
+modbusFrontEndT	R	24	472	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+Tmr Svc     
+[2023-04-25 17:02:08] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:08] [thread 16232]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+h:17 m:2 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:12] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:12] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:16] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 220756, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	129	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+modbusBackEn
+[2023-04-25 17:02:21] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:21] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:25] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:25] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:29] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 233737, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	129	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	
+[2023-04-25 17:02:33] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:33] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:37] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:37] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:41] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 246725, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	129	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:02:45] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:45] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:50] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:50] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:02:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 259705, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	129	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:02:58] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:02:58] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	472	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:02] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:02] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+h:17 m:3 s:0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:06] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 272684, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	129	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:03:10] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:10] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:19] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 285658, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463
+[2023-04-25 17:03:23] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:23] [thread 16232] 	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+[error] d2d tx timeout!
+=================================================
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:27] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:27] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:31] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:31] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:35] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 298641, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 17:03:39] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:39] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:43] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:43] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:45] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 311629, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc     
+[2023-04-25 17:03:49] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:03:49] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:49] [thread 16232]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:53] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:53] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:03:57] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:03:57] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:01] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 324607, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 17:04:05] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:05] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+h:17 m:4 s:0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:09] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:09] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 337583, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+Tmr Svc     
+[2023-04-25 17:04:18] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:18] [thread 16232]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:22] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:22] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:23] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:04:23] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:27] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 350569, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 17:04:31] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:31] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:36] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:36] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:40] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 363543, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc     
+[2023-04-25 17:04:44] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:44] [thread 16232]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:48] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:48] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:04:52] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 376527, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:04:56] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:04:56] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:00] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:00] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:05] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:5 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 389511, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE      
+[2023-04-25 17:05:09] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:09] [thread 16232]      	R	0	107	5
+modbusFrontEndT	B	24	463	8
+workTask       	B	24	1899	3
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:13] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:13] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:17] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 402486, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463
+[2023-04-25 17:05:18] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:05:18] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:18] [thread 16232] 	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:22] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:22] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:27] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:27] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:31] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 415469, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+workTask       	R	24	1899	3
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	24
+[2023-04-25 17:05:32] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:05:32] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:32] [thread 16232] 2	1
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:36] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:36] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:40] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:40] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:44] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 428447, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 17:05:49] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:49] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:53] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:53] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:05:57] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 441429, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+workTask       	R	24	1899	3
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	12
+[2023-04-25 17:05:58] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:05:58] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:05:58] [thread 16232] 8	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:02] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:02] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+h:17 m:6 s:0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:06] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:06] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:11] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 454409, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 17:06:15] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:15] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:19] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:19] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:23] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 467391, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+workTask       	R	24	1899	3
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	12
+[2023-04-25 17:06:27] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:27] [thread 16232] 8	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:31] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:31] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:35] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 480372, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:06:40] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:40] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:44] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:44] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:48] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 493355, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	
+[2023-04-25 17:06:52] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:52] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:06:56] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:06:56] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:00] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 506333, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:07:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:04] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:7 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:09] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:09] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:13] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 519311, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	
+[2023-04-25 17:07:14] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:07:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:14] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:18] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:18] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:22] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:22] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:26] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 532292, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463
+[2023-04-25 17:07:31] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:31] [thread 16232] 	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:35] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:35] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:39] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 545267, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:07:43] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:43] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:47] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:47] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:07:51] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 558254, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	
+[2023-04-25 17:07:55] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:07:55] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:00] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:00] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+h:17 m:8 s:0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:08] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 571231, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc     
+[2023-04-25 17:08:12] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:12] [thread 16232]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:16] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:16] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:20] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 584217, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+workTask       	R	24	1899	3
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 17:08:24] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:24] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:26] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:08:26] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:30] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:30] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:32] [thread 16232] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 10000
+
+[2023-04-25 17:08:32] [thread 16232] 定频状态中
+[2023-04-25 17:08:34] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 597191, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+Tmr Svc     
+[2023-04-25 17:08:34] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:34] [thread 16232]    	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+regular report timer event!
+
+[debug]send lora signal 
+===frame counter restore! cnt_up = 12, cnt_down = 0
+[debug] s_lora_sending = 1
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -fr
+[2023-04-25 17:08:34] [thread 16232] eq 923300000 -interval 10000
+, buf_size:59
+
+[2023-04-25 17:08:41] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:08:41] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:43] [thread 16232] =================================================
+current time = 610170, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:08:54] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:08:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:08:56] [thread 16232] =================================================
+current time = 623156, lora_state = 1
+
+[2023-04-25 17:08:56] [thread 16232] FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:09:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:09:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:9 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:09:09] [thread 16232] =================================================
+
+[2023-04-25 17:09:09] [thread 16232] current time = 636132, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:09:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:09:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:09:24] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 649111, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	128	4
+workTask       	R	24	189
+[2023-04-25 17:09:24] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:09:24] [thread 16232] 9	3
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:09:34] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:09:34] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:09:35] [thread 16232] =================================================
+current time = 662095, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:09:41] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:09:41] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:09:48] [thread 16232] =================================================
+current time = 675078, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 17:09:48] [thread 16232] =================================================
+
+[2023-04-25 17:09:54] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:09:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:10:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 688061, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+h:17 m:10 s:0
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	
+[2023-04-25 17:10:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:10:04] [thread 16232] 8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:10:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 701042, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:10:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:10:14] [thread 16232] 5
+modbusFrontEndT	B	24	463	8
+workTask       	B	24	1899	3
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:10:24] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:10:24] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:10:27] [thread 16232] =================================================
+current time = 714013, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+
+[2023-04-25 17:10:27] [thread 16232] watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	463	8
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:10:34] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:10:34] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:10:40] [thread 16232] =================================================
+current time = 726997, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+
+[2023-04-25 17:10:40] [thread 16232] taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:10:44] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:10:44] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:10:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 739981, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463
+[2023-04-25 17:10:54] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:10:54] [thread 16232] 	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:11:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:11:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:11 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:11:06] [thread 16232] =================================================
+current time = 752955, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+
+[2023-04-25 17:11:06] [thread 16232] taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:11:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:11:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:11:19] [thread 16232] =================================================
+current time = 765941, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:11:24] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:11:24] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:11:34] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 778924, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	128	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:11:34] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:11:34] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:11:44] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:11:44] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:11:45] [thread 16232] =================================================
+current time = 791902, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	128	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:11:54] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:11:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:11:58] [thread 16232] =================================================
+current time = 804880, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	463	8
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 17:11:58] [thread 16232] =================================================
+
+[2023-04-25 17:12:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:12:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:12 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:12:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 817860, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+communicateTask	R	24	1701	2
+workTask       	R	24	1899	3
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+modbusBackEn
+[2023-04-25 17:12:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:12:14] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:12:24] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 830840, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	
+[2023-04-25 17:12:24] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:12:24] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:12:34] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:12:34] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:12:37] [thread 16232] =================================================
+current time = 843821, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:12:44] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:12:44] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:12:50] [thread 16232] =================================================
+current time = 856805, lora_state = 1
+
+[2023-04-25 17:12:50] [thread 16232] FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:12:54] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:12:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:13:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:13 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 869784, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE     
+[2023-04-25 17:13:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:13:04] [thread 16232]       	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:13:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:13:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:13:16] [thread 16232] =================================================
+current time = 882764, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 17:13:16] [thread 16232] =================================================
+
+[2023-04-25 17:13:24] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:13:24] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:13:29] [thread 16232] =================================================
+current time = 895746, lora_state = 1
+
+[2023-04-25 17:13:29] [thread 16232] FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:13:34] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:13:34] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:13:44] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 908727, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	
+[2023-04-25 17:13:44] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:13:44] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:13:54] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:13:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:13:55] [thread 16232] =================================================
+current time = 921707, lora_state = 1
+
+[2023-04-25 17:13:55] [thread 16232] FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:14:01] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:14:01] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:14 s:0
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:14:08] [thread 16232] =================================================
+current time = 934682, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+
+[2023-04-25 17:14:08] [thread 16232] taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:14:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:14:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:14:24] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+=================================================
+current time = 947664, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+defaultTask    	R	24	242	1
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEn
+[2023-04-25 17:14:24] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:14:24] [thread 16232] dTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:14:31] [thread 16232] 发送定频lora信号成功
+[2023-04-25 17:14:31] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:14:33] [thread 16232] =================================================
+current time = 960647, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+
+[2023-04-25 17:14:34] [thread 16232] taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:14:44] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:14:44] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:14:46] [thread 16232] =================================================
+current time = 973623, lora_state = 1
+
+[2023-04-25 17:14:47] [thread 16232] FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:14:54] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:14:54] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:14:59] [thread 16232] =================================================
+current time = 986611, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+
+[2023-04-25 17:15:00] [thread 16232] watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:15:04] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:15:04] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+h:17 m:15 s:0
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:15:12] [thread 16232] 发送：freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 60000
+
+[2023-04-25 17:15:12] [thread 16232] 定频状态中
+[2023-04-25 17:15:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+=================================================
+current time = 999592, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+defaultTask    	R	24	242	1
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	
+[2023-04-25 17:15:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:15:14] [thread 16232] 5
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+[debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+buf:freq-fixed  -dr 0 -power 0 -freq 923300000 -interval 60000
+, buf_size:59
+
+[2023-04-25 17:15:25] [thread 16232] =================================================
+
+[2023-04-25 17:15:25] [thread 16232] current time = 1012570, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:15:38] [thread 16232] =================================================
+current time = 1025551, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+
+[2023-04-25 17:15:38] [thread 16232] communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:15:51] [thread 16232] =================================================
+current time = 1038532, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+
+[2023-04-25 17:15:51] [thread 16232] =================================================
+
+[2023-04-25 17:16:01] [thread 16232] h:17 m:16 s:0
+
+[2023-04-25 17:16:04] [thread 16232] =================================================
+current time = 1051505, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+
+[2023-04-25 17:16:04] [thread 16232] watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:16:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:16:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:16:17] [thread 16232] =================================================
+current time = 1064488, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:16:30] [thread 16232] =================================================
+current time = 1077469, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+
+[2023-04-25 17:16:30] [thread 16232] taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:16:43] [thread 16232] =================================================
+current time = 1090453, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+
+[2023-04-25 17:16:43] [thread 16232] communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:16:56] [thread 16232] =================================================
+current time = 1103434, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+
+[2023-04-25 17:16:56] [thread 16232] =================================================
+
+[2023-04-25 17:17:01] [thread 16232] h:17 m:17 s:0
+
+[2023-04-25 17:17:09] [thread 16232] =================================================
+current time = 1116407, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+
+[2023-04-25 17:17:09] [thread 16232] taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:17:14] [thread 16232] 发送定频lora信号失败
+[2023-04-25 17:17:14] [thread 16232] d2d send wait ready
+d2d send freq = 923300000, phydr = 12, txpower = 16, bandwidth = 0, data[0]:
+[debug] d2d send started!
+===RadioIrqProcess! IsLoraTxTimeout = 0, BoardGetLoRaWorkingStatus = 0
+[error] d2d tx timeout!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-25 17:17:22] [thread 16232] =================================================
+current time = 1129389, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-25 17:17:35] [thread 16232] =================================================
+current time = 1142374, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+watchdogTask   	X	24	121	4
+communicateTask	R	24	1701	2
+IDLE           	R	0	107	5
+defaultTask    	B	24	242	1
+workTask       	B	24	1899	3
+modbusFrontEndT	B	24	463	8
+Tmr Svc        	B	2	203	6
+modbusBackEndTa	B	24	465	7
+=================================================
+
+[2023-04-25 17:17:48] [thread 16232] =================================================
+current time = 1155357, lora_state = 1
+FreeHeapSize = 5760, MinimumEverFreeHeapSize = 5464
+
+taskname    taskstatus    priority    leftstack    tasknum
+communicateTask	R	24	1701	2
+watchdogTask   	X	24	121	4
+modbusFrontEndT	R	24	463	8
+IDLE           	R	0	107	5
+workTask       	B	24	1899	3
+defaultTask    	B	24	242	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+

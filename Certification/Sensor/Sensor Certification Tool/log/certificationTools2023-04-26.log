@@ -1,0 +1,448 @@
+[2023-04-26 14:24:52] [thread 29204] ----------------------------------------start----------------------------------------
+[2023-04-26 14:24:55] [thread 29204] ä¸²å£å·²è¿æ¥!
+[2023-04-26 14:24:55] [thread 29204] å‘é€@ENABLE UNXX UART DEBUG@
+[2023-04-26 14:24:55] [thread 29204] å‘é€ï¼š2023-04-26 14:24:55start-certified
+
+[2023-04-26 14:24:55] [thread 29204] å·²å¼€å¯è®¤è¯æ¨¡å¼
+[2023-04-26 14:24:55] [thread 29204] §ƒ*•¹6¨â³RÃ}ƒç9€,ìqAaŠv´`àœ`—I«¨ZÑ¡´kf^oúãÂ[[<±UGŒ´]¬c±Ù;™üÀÎ×®—½ô/o@OÜ_c¿A.‡ñ”wâˆˆpŠ_Gc´”f!†Ç‡âíI²Ó?}ä€Ôxú¼Kş´llß¦ò¯†;¬kÖî7’ñÉe@%{'H/œ†wÓ$š¯¯éöP6î²Ë«£ä;Ÿ¯›¼¤ºlVæÚr<¨Ó^7²¢­q¢`)shRZËæl®Ç¦5»Gæ¬ä#L×ãö÷æØxğ	³nR†áS=ÎÛT\Æ0mşÿÜ¬ûÏN’`(î’mÏá>d‡Š'õ?_\B	=;´äà5Ë·dR®ŸØ…94àM+dÕQ
+şÅJ´K¢€Y›Ò|Z>®6®œ’ÍˆW+ó@Åˆ:jï¨U-)Ö<ÿŒÓ·g@E~$/M$Ş¤J\7	Äº†s‹
+®œrÂĞxşó×‚Î­&şëaqÉkôUš¿OßgzãË±?eºÅó*÷Œ#)ë³Ö[UƒŞ^—ƒ¥YP‰’¿ºZÌC'æ¥aÌØ6ÆÔ»ì‹Hö9¬AG&Û®&Äjÿ v|„ ©VzŠ›ˆ%B£[²É¹œJ$Íİ|dZÉISyô
+[2023-04-26 14:24:55] [thread 29204] [debug]: software version = 0103
+[debug]: product model = UC300
+[debug]: hardware version = 0200
+
+[2023-04-26 14:24:58] [thread 29204] å‘é€ï¼šfreq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-26 14:24:58] [thread 29204] å®šé¢‘çŠ¶æ€ä¸­
+[2023-04-26 14:24:59] [thread 29204] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 14:24:59] [thread 29204] [debug] freq-fixed-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:00] [thread 29204] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 14:25:00] [thread 29204] d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:01] [thread 29204] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 14:25:01] [thread 29204] d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:02] [thread 29204] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 14:25:02] [thread 29204] d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:02] [thread 29204] å‘é€ï¼š2023-04-26 14:25:02freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-26 14:25:02] [thread 29204] è·³é¢‘çŠ¶æ€ä¸­
+[2023-04-26 14:25:03] [thread 29204] d2d send freq = 923300000
+[2023-04-26 14:25:03] [thread 29204] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ 923300000
+[2023-04-26 14:25:03] [thread 29204] d2d send wait ready
+d2d send freq = 923300000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:03] [thread 29204] d2d send freq = 923400000
+[2023-04-26 14:25:03] [thread 29204] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ 923400000
+[2023-04-26 14:25:03] [thread 29204] [debug] freq-hopping-enable
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:04] [thread 29204] d2d send freq = 923400000
+[2023-04-26 14:25:04] [thread 29204] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ 923400000
+[2023-04-26 14:25:04] [thread 29204] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:05] [thread 29204] d2d send freq = 923400000
+[2023-04-26 14:25:05] [thread 29204] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ 923400000
+[2023-04-26 14:25:05] [thread 29204] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:06] [thread 29204] d2d send freq = 923400000
+[2023-04-26 14:25:06] [thread 29204] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ 923400000
+[2023-04-26 14:25:06] [thread 29204] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:06] [thread 29204] =================================================
+current time = 40160, lora_state = 1
+FreeHeapSize = 6528, MinimumEverFreeHeapSize = 6232
+
+taskname    taskstatus    priority    leftstack    tasknum
+
+[2023-04-26 14:25:06] [thread 29204] watchdogTask   	X	24	328	4
+communicateTask	R	24	1696	2
+IDLE           	R	0	107	5
+modbusFrontEndT	B	24	475	8
+workTask       	B	24	1924	3
+defaultTask    	B	24	1201	1
+modbusBackEndTa	B	24	465	7
+Tmr Svc        	B	2	203	6
+=================================================
+
+[2023-04-26 14:25:07] [thread 29204] d2d send freq = 923400000
+[2023-04-26 14:25:07] [thread 29204] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ 923400000
+[2023-04-26 14:25:07] [thread 29204] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 14:25:08] [thread 29204] å‘é€ï¼š2023-04-26 14:25:08stop-certified
+
+[2023-04-26 14:25:08] [thread 29204] å·²é€€å‡ºè®¤è¯æµ‹è¯•
+[2023-04-26 14:25:08] [thread 29204] d2d send freq = 923400000
+[2023-04-26 14:25:08] [thread 29204] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ 923400000
+[2023-04-26 14:25:08] [thread 29204] d2d appskey:616b3d869c324e695ee04731b1d25f46
+d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait ready
+d2d send freq = 923400000, phydr = 10, txpower = 30, bandwidth = 0, data[0]:
+[debug] d2d send started!
+[debug] d2d tx done!
+===OnTxNextPacketTimerEvent2
+
+[2023-04-26 20:00:59] [thread 10952] ----------------------------------------start----------------------------------------
+[2023-04-26 20:02:09] [thread 16072] ----------------------------------------start----------------------------------------
+[2023-04-26 20:16:40] [thread 24364] ----------------------------------------start----------------------------------------
+[2023-04-26 20:16:43] [thread 24364] ä¸²å£å·²è¿æ¥!
+[2023-04-26 20:16:43] [thread 24364] å‘é€@ENABLE UNXX UART DEBUG@
+[2023-04-26 20:16:43] [thread 24364] LPM Enter!
+
+[2023-04-26 20:16:44] [thread 24364] å‘é€ï¼š2023-04-26 20:16:44start-certified
+
+[2023-04-26 20:16:44] [thread 24364] å·²å¼€å¯è®¤è¯æ¨¡å¼
+[2023-04-26 20:16:44] [thread 24364] LPM Exit!
+
+[2023-04-26 20:16:44] [thread 24364] uart receive[size=16]:73746172742d6365727469666965640a (start-ce
+[2023-04-26 20:16:44] [thread 24364] rtified
+)
+[debug] start-certified-enable
+[debug]: software ver
+[2023-04-26 20:16:44] [thread 24364] sion = 0103
+[debug]: product model = EM300
+[debug]: hardware v
+[2023-04-26 20:16:44] [thread 24364] ersion = 0300
+
+[2023-04-26 20:16:46] [thread 24364] å‘é€ï¼šfreq-fixed  -dr 0 -power 0 -freq 923300000 -interval 1000
+
+[2023-04-26 20:16:46] [thread 24364] å®šé¢‘çŠ¶æ€ä¸­
+[2023-04-26 20:16:46] [thread 24364] uart receive[size=58]:667265712d666978656420202d64722030202d706f
+[2023-04-26 20:16:46] [thread 24364] 7765722030202d6672657120393233333030303030202d696e74657276616c20
+[2023-04-26 20:16:46] [thread 24364] 313030300a (freq-fixed  -dr 0 -power 0 -freq 923300000 -interval
+[2023-04-26 20:16:46] [thread 24364]  1000
+)
+[debug] freq-fixed-enable
+
+[2023-04-26 20:16:46] [thread 24364] d2d appskey:616b3d869c324e695ee04731b1d25f46
+
+[2023-04-26 20:16:46] [thread 24364] d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+
+[2023-04-26 20:16:47] [thread 24364] d2d send wait ready
+
+[2023-04-26 20:16:47] [thread 24364] d2d send
+[2023-04-26 20:16:47] [thread 24364]  freq = 923300000, phydr = 10, txpow
+[2023-04-26 20:16:47] [thread 24364] er = 34, bandwidth = 0, data[0]:
+
+[2023-04-26 20:16:47] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:16:47] [thread 24364] RX_1 on freq 926900000 Hz at DR 10
+
+[2023-04-26 20:16:47] [thread 24364] MAC rxTimeOut
+
+[2023-04-26 20:16:49] [thread 24364] [debug]: di_rtc: 0, di_cnt: 0, g_hdi.last: 0 
+[debug]: di_level
+[2023-04-26 20:16:49] [thread 24364] : 0, di_count: 0
+
+[2023-04-26 20:16:49] [thread 24364] Refresh Watch Dog![26]/[26128], battery = 100
+
+[2023-04-26 20:16:50] [thread 24364] å‘é€å®šé¢‘loraä¿¡å·å¤±è´¥
+[2023-04-26 20:16:50] [thread 24364] d2d tx timeout!
+
+[2023-04-26 20:16:51] [thread 24364] d2d send wait ready
+
+[2023-04-26 20:16:51] [thread 24364] d2d send freq = 923300000, phydr = 10, txpower = 34, bandwidth =
+[2023-04-26 20:16:51] [thread 24364]  0, data[0]:
+
+[2023-04-26 20:16:51] [thread 24364] ===SUBGRF TX Power = 34
+[2023-04-26 20:16:51] [thread 24364] 
+
+[2023-04-26 20:16:51] [thread 24364] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:16:51] [thread 24364] d2d tx done!
+
+[2023-04-26 20:16:52] [thread 24364] d2d send wait ready
+
+[2023-04-26 20:16:53] [thread 24364] d2d send freq = 923300000, phydr = 10, txpower = 34, ban
+[2023-04-26 20:16:53] [thread 24364] dwidth = 0, data[0]:
+
+[2023-04-26 20:16:53] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:16:53] [thread 24364] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:16:53] [thread 24364] d2d tx done!
+
+[2023-04-26 20:16:54] [thread 24364] d2d 
+[2023-04-26 20:16:54] [thread 24364] send wait ready
+
+[2023-04-26 20:16:54] [thread 24364] d2d send
+[2023-04-26 20:16:54] [thread 24364]  freq = 923300000,
+[2023-04-26 20:16:54] [thread 24364]  phydr = 10, txpow
+[2023-04-26 20:16:54] [thread 24364] er = 34, bandwidth
+[2023-04-26 20:16:54] [thread 24364]  = 0, data[0]:
+
+[2023-04-26 20:16:54] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:16:54] [thread 24364] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:16:54] [thread 24364] d2d tx done!
+
+[2023-04-26 20:16:55] [thread 24364] d2d send wait read
+[2023-04-26 20:16:55] [thread 24364] y
+
+[2023-04-26 20:16:55] [thread 24364] d2d 
+[2023-04-26 20:16:55] [thread 24364] send freq = 923300
+[2023-04-26 20:16:55] [thread 24364] 000, phydr = 10, t
+[2023-04-26 20:16:55] [thread 24364] xpower = 34, bandw
+[2023-04-26 20:16:55] [thread 24364] idth = 0, data[0]:
+[2023-04-26 20:16:55] [thread 24364] 
+
+[2023-04-26 20:16:55] [thread 24364] ===SUBGRF TX Power =
+[2023-04-26 20:16:55] [thread 24364]  34
+
+[2023-04-26 20:16:56] [thread 24364] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:16:56] [thread 24364] d2d tx done!
+
+[2023-04-26 20:16:57] [thread 24364] d2d send
+[2023-04-26 20:16:57] [thread 24364]  wait ready
+
+[2023-04-26 20:16:57] [thread 24364] d2d send freq = 923300000, phydr = 10, txpower = 34, bandwidth =
+[2023-04-26 20:16:57] [thread 24364]  0, data[0]:
+
+[2023-04-26 20:16:57] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:16:57] [thread 24364] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:16:57] [thread 24364] d2d tx done!
+
+[2023-04-26 20:16:58] [thread 24364] d2d send wait ready
+
+[2023-04-26 20:16:58] [thread 24364] d2d 
+[2023-04-26 20:16:58] [thread 24364] send freq = 923300000, phydr = 10, txp
+[2023-04-26 20:16:58] [thread 24364] ower = 34, bandw
+[2023-04-26 20:16:58] [thread 24364] idth = 0, data[0]:
+
+[2023-04-26 20:16:58] [thread 24364] ===SUBGRF TX Power =
+[2023-04-26 20:16:58] [thread 24364]  34
+
+[2023-04-26 20:16:59] [thread 24364] å‘é€å®šé¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:16:59] [thread 24364] d2d tx done!
+
+[2023-04-26 20:16:59] [thread 24364] å‘é€ï¼š2023-04-26 20:16:59freq-hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000 -start_freq 923400000 -stop_freq 923400000
+
+[2023-04-26 20:16:59] [thread 24364] è·³é¢‘çŠ¶æ€ä¸­
+[2023-04-26 20:16:59] [thread 24364] uart receive[size=113]:667265712d686f7070696e6720202d64722030202
+[2023-04-26 20:16:59] [thread 24364] d706f7765722030202d696e74657276616c2035303030202d6d6f64652030202
+[2023-04-26 20:16:59] [thread 24364] d737465705f6672657120323030303030202d73746172745f667265712039323
+[2023-04-26 20:16:59] [thread 24364] 3343030303030202d73746f705f66726571203932333430303030300a (freq-
+[2023-04-26 20:16:59] [thread 24364] hopping  -dr 0 -power 0 -interval 5000 -mode 0 -step_freq 200000
+[2023-04-26 20:16:59] [thread 24364]  -start_freq 923400000 -stop_freq 923400000
+)
+[debug] freq-hopp
+[2023-04-26 20:16:59] [thread 24364] ing-enable
+
+[2023-04-26 20:16:59] [thread 24364] d2d appskey:616b3d869c324e695ee04731b1d25f46
+
+[2023-04-26 20:16:59] [thread 24364] d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+
+[2023-04-26 20:17:00] [thread 24364] d2d send wait re
+[2023-04-26 20:17:00] [thread 24364] ady
+
+[2023-04-26 20:17:00] [thread 24364] d2d send freq = 9233
+[2023-04-26 20:17:00] [thread 24364] 00000, phydr = 10, txpower = 34, ban
+[2023-04-26 20:17:00] [thread 24364] dwidth = 0, data[0]:
+[2023-04-26 20:17:00] [thread 24364] 
+
+[2023-04-26 20:17:00] [thread 24364] ===SUBGRF TX Power
+[2023-04-26 20:17:00] [thread 24364]  = 34
+
+[2023-04-26 20:17:00] [thread 24364] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:17:00] [thread 24364] d2d tx done!
+
+[2023-04-26 20:17:02] [thread 24364] [debug]: di_rtc: 0, di_cnt: 0, g_hdi.last: 0 
+[debug]: di_level
+[2023-04-26 20:17:02] [thread 24364] : 0, di_count: 0
+
+[2023-04-26 20:17:02] [thread 24364] Refresh Watch Dog![39]/[39129], battery = 100
+
+[2023-04-26 20:17:05] [thread 24364] d2d appskey:616b3d86
+[2023-04-26 20:17:05] [thread 24364] 9c324e695ee04731b1
+[2023-04-26 20:17:05] [thread 24364] d25f46
+
+[2023-04-26 20:17:05] [thread 24364] d2d nwkskey:a5471bc2fe0cee
+[2023-04-26 20:17:05] [thread 24364] c7a5cbbc151835691e
+[2023-04-26 20:17:05] [thread 24364] 
+d2d send wait ready
+
+[2023-04-26 20:17:05] [thread 24364] d2d send freq = 923400000
+[2023-04-26 20:17:05] [thread 24364] d2d send freq = 923400000, phydr = 10, txpower = 34, bandw
+[2023-04-26 20:17:05] [thread 24364] idth = 0, data[0]:
+
+[2023-04-26 20:17:05] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:17:06] [thread 24364] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:17:06] [thread 24364] d2d tx done!
+
+[2023-04-26 20:17:11] [thread 24364] d2d appskey:616b3d869c324e695ee04731b1d25f46
+
+[2023-04-26 20:17:11] [thread 24364] d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+d2d send wait read
+[2023-04-26 20:17:11] [thread 24364] y
+
+[2023-04-26 20:17:11] [thread 24364] d2d send freq = 923400000
+[2023-04-26 20:17:11] [thread 24364] d2d send freq = 923400000, phydr = 1
+[2023-04-26 20:17:11] [thread 24364] 0, txpower = 34, b
+[2023-04-26 20:17:11] [thread 24364] andwidth = 0, data[0]:
+
+[2023-04-26 20:17:11] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:17:11] [thread 24364] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:17:11] [thread 24364] d2d tx done!
+
+[2023-04-26 20:17:15] [thread 24364] [debug]: di_rtc: 0, di_cnt: 0, g_hdi.last: 0 
+[debug]: di_level
+[2023-04-26 20:17:15] [thread 24364] : 0, di_count: 0
+
+[2023-04-26 20:17:15] [thread 24364] Refresh Watch Dog![52]/[52128], battery = 100
+
+[2023-04-26 20:17:16] [thread 24364] d2d appskey:616b
+[2023-04-26 20:17:16] [thread 24364] 3d869c324e695ee04731b1d25f46
+
+[2023-04-26 20:17:16] [thread 24364] d2d 
+[2023-04-26 20:17:16] [thread 24364] nwkskey:a5471bc2fe
+[2023-04-26 20:17:16] [thread 24364] 0ceec7a5cbbc151835691e
+d2d send wait 
+[2023-04-26 20:17:16] [thread 24364] ready
+
+[2023-04-26 20:17:16] [thread 24364] d2d send freq = 923400000
+[2023-04-26 20:17:16] [thread 24364] d2d send freq = 923400000, phydr = 10, txpower = 34,
+[2023-04-26 20:17:16] [thread 24364]  bandwidth = 0, data[0]:
+
+[2023-04-26 20:17:16] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:17:17] [thread 24364] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:17:17] [thread 24364] d2d tx done!
+
+[2023-04-26 20:17:20] [thread 24364] å‘é€ï¼š2023-04-26 20:17:20stop-certified
+
+[2023-04-26 20:17:20] [thread 24364] å·²é€€å‡ºè®¤è¯æµ‹è¯•
+[2023-04-26 20:17:20] [thread 24364] uart receive[size=14]:73746f702d636572746966696564 (stop-certifi
+[2023-04-26 20:17:20] [thread 24364] ed)
+[debug] start-certified-disable
+###### D2dEnable:  0
+
+[2023-04-26 20:17:20] [thread 24364] ###### D2DKey:  00000000000000000000000000000000
+###### D2DDr: 
+[2023-04-26 20:17:20] [thread 24364]  8
+###### D2DFreq:  923300000
+
+[2023-04-26 20:17:20] [thread 24364] d2d appskey:616b3d869c324e695ee04731b1d25f46
+
+[2023-04-26 20:17:20] [thread 24364] d2d nwkskey:a5471bc2fe0ceec7a5cbbc151835691e
+
+[2023-04-26 20:17:22] [thread 24364] d2d appskey:616b3d
+[2023-04-26 20:17:22] [thread 24364] 869c324e695ee04731b1d25f46
+
+[2023-04-26 20:17:22] [thread 24364] d2d nwkskey:a5471bc2fe0c
+[2023-04-26 20:17:22] [thread 24364] eec7a5cbbc151835691e
+d2d send wait ready
+
+[2023-04-26 20:17:22] [thread 24364] d2d send freq = 923400000
+[2023-04-26 20:17:22] [thread 24364] d2d send freq = 923400000, phydr = 1
+[2023-04-26 20:17:22] [thread 24364] 0, txpower = 34, ban
+[2023-04-26 20:17:22] [thread 24364] dwidth = 0, data
+[2023-04-26 20:17:22] [thread 24364] [0]:
+
+[2023-04-26 20:17:22] [thread 24364] ===SUBGRF TX Power = 34
+
+[2023-04-26 20:17:22] [thread 24364] å‘é€è·³é¢‘loraä¿¡å·æˆåŠŸ
+[2023-04-26 20:17:22] [thread 24364] d2d tx done!
+
+[2023-04-26 20:17:22] [thread 24364] ===use ursalink default channel! count = 2
+
+[2023-04-26 20:17:22] [thread 24364] ===SUBGRF TX Power = 22
+
+[2023-04-26 20:17:22] [thread 24364] TX on freq 904100000 Hz at DR 0
+
+[2023-04-26 20:17:22] [thread 24364] [info]:LORA_JOIN_REQ_EVENT
+===rejoin TxDutyCycleTime = 15313
+
+[2023-04-26 20:17:22] [thread 24364] LPM Enter!
+
+[2023-04-26 20:17:23] [thread 24364] LPM Exit!
+MAC txDone
+
+[2023-04-26 20:17:23] [thread 24364] LPM Enter!
+
+[2023-04-26 20:17:28] [thread 24364] LPM Exit!
+RX_1 on freq 923900000 Hz at DR 10
+
+[2023-04-26 20:17:28] [thread 24364] LPM Enter!
+
+[2023-04-26 20:17:28] [thread 24364] LPM Exit!
+MAC rxTimeOut
+
+[2023-04-26 20:17:28] [thread 24364] LPM Enter!
+
+[2023-04-26 20:17:28] [thread 24364] LPM Exit!
+[debug]: di_rtc: 0, di_cnt: 0, g_hdi.last: 0 
+[debug
+[2023-04-26 20:17:28] [thread 24364] ]: di_level: 0, di_count: 0
+Refresh Watch Dog![65]/[65126], bat
+[2023-04-26 20:17:28] [thread 24364] tery = 100
+
+[2023-04-26 20:17:28] [thread 24364] LPM Enter!
+
+[2023-04-26 20:17:29] [thread 24364] LPM Exit!
+RX_2 on freq 923300000 Hz at DR 8
+
+[2023-04-26 20:17:29] [thread 24364] LPM Enter!
+
+[2023-04-26 20:17:29] [thread 24364] LPM Exit!
+MAC rxTimeOut
+
+[2023-04-26 20:17:29] [thread 24364] LPM Enter!
+
+[2023-04-26 20:17:30] [thread 24364] ä¸²å£å·²æ–­å¼€!

@@ -1,0 +1,182 @@
+1.开机进入系统
+
+2.插入串口进入“root@ROUTER:~#”
+
+root@ROUTER:~# cd /bin
+root@ROUTER:/bin#
+
+tftp -gr rtwpriv 192.168.xx.xx
+
+chmod 0755 /bin/rtwpriv
+
+注意：如果平台有考贝，以上步骤就不需要输入。
+
+
+
+3.输入TX定频命令：
+
+（例子）54M：
+ifconfig wlan0 up
+
+rtwpriv wlan0 mp_ctx stop
+
+rtwpriv wlan0 mp_start
+rtwpriv wlan0 mp_channel 1
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0
+rtwpriv wlan0 mp_ant_tx a
+rtwpriv wlan0 mp_rate 108
+rtwpriv wlan0 mp_get_txpower
+rtwpriv wlan0 mp_ctx background,pkt
+
+
+（例子）n20 mcs7：
+ifconfig wlan0 up
+
+rtwpriv wlan0 mp_ctx stop
+
+rtwpriv wlan0 mp_start
+rtwpriv wlan0 mp_channel 07
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0
+rtwpriv wlan0 mp_ant_tx a
+rtwpriv wlan0 mp_rate 135
+rtwpriv wlan0 mp_get_txpower
+rtwpriv wlan0 mp_ctx background,pkt
+
+
+
+骏泰达
+openwifi
+ifconfig wlan0 up
+
+mp_start
+mp_channel 13
+mp_bandwidth 40M=0,shortGI=0
+mp_ant_tx a
+mp_rate 135
+
+mp_ctx background,pkt
+
+mp_get_txpower
+
+mp_ctx stop
+
+（例子）5G n20 mcs7：
+ifconfig wlan0 up
+
+rtwpriv wlan0 mp_ctx stop
+
+rtwpriv wlan0 mp_start
+rtwpriv wlan0 mp_channel 36
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0
+rtwpriv wlan0 mp_ant_tx a
+rtwpriv wlan0 mp_rate 135
+rtwpriv wlan0 mp_get_txpower
+rtwpriv wlan0 mp_ctx background,pkt
+
+
+（例子）5G ac80 mcs9
+rtwpriv wlan0 mp_ctx stop
+
+rtwpriv wlan0 mp_start
+rtwpriv wlan0 mp_channel 42
+rtwpriv wlan0 mp_bandwidth 40M=2,shortGI=0
+rtwpriv wlan0 mp_ant_tx a
+rtwpriv wlan0 mp_rate 169
+rtwpriv wlan0 mp_get_txpower
+rtwpriv wlan0 mp_ctx background,pkt
+
+
+每条指令的详细说明：
+OFDM 54M:
+ifconfig wlan0 up       //
+rtwpriv wlan0 mp_start  //
+rtwpriv wlan0 mp_channel 13   //设置频道
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0   //40M=0 表示20M带宽。 =1 表示40M带宽
+rtwpriv wlan0 mp_ant_tx a    //选择a天线
+rtwpriv wlan0 mp_rate 108  //表示G模 54M模式
+rtwpriv wlan0 mp_get_txpower  //读出当前频道，当前模式的index值
+rtwpriv wlan0 mp_txpower patha=44,pathb=50  //功率大小，填写上面读出的index值，参考"定频软件参数设定iwpriv_mp_settings_for_different_data_rate"
+
+rtwpriv wlan0 mp_ctx background,pkt  //开始发包, 可以选择发包方式。参考“命令指令Quick_Start_Guide_V5”
+rtwpriv wlan0 mp_ctx stop  //停止
+
+
+单载波指令:  2.4G  CCK-11M
+
+
+rtwpriv wlan0 mp_ctx stop
+rtwpriv wlan0 mp_start
+rtwpriv wlan0 mp_channel 1
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0
+rtwpriv wlan0 mp_ant_tx a,b
+rtwpriv wlan0 mp_txpower patha=0,pathb=0
+rtwpriv wlan0 mp_rate 22
+rtwpriv wlan0 mp_ctx background,stone
+
+
+单载波指令:  2.4G  OFDM-54M
+
+
+rtwpriv wlan0 mp_ctx stop
+rtwpriv wlan0 mp_start
+rtwpriv wlan0 mp_channel 1
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0
+rtwpriv wlan0 mp_ant_tx a,b
+rtwpriv wlan0 mp_txpower patha=0,pathb=0
+rtwpriv wlan0 mp_rate 108
+rtwpriv wlan0 mp_ctx background,stone
+
+
+OFDM 54M:
+ifconfig wlan0 up
+rtwpriv wlan0 mp_start
+rtwpriv wlan0 mp_channel 1
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0
+rtwpriv wlan0 mp_ant_tx a
+rtwpriv wlan0 mp_rate 108
+
+rtwpriv wlan0 mp_get_txpower
+
+rtwpriv wlan0 mp_txpower patha=44,pathb=50
+rtwpriv wlan0 mp_ctx background,pkt
+
+rtwpriv wlan0 mp_ctx stop
+
+
+rtwpriv wlan0 mp_pwrctldm start
+
+rtwpriv wlan0 mp_pwrctldm stop  ///关温补
+
+
+4.输入RX的测试命令：
+
+ifconfig wlan0 up
+
+rtwpriv wlan0 mp_start     
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0    
+rtwpriv wlan0 mp_channel 1
+rtwpriv wlan0 mp_ant_rx a    
+rtwpriv wlan0 mp_arx start//开始收包
+
+rtwpriv wlan0 mp_arx phy //查看物理层收包情况，表示模块收到的包。
+rtwpriv wlan0 mp_query  //查看系统层收包情况，表示CPU收到的包，通常看这个数值。
+
+rtwpriv wlan0 mp_reset_stats //接收数据复位
+
+rtwpriv wlan0 mp_stop //停止工具
+
+
+rtwpriv wlan0 mp_stop
+
+rtwpriv wlan0 mp_start     
+rtwpriv wlan0 mp_bandwidth 40M=0,shortGI=0    
+rtwpriv wlan0 mp_channel 165
+rtwpriv wlan0 mp_ant_rx a    
+rtwpriv wlan0 mp_arx start
+
+rtwpriv wlan0 mp_arx phy
+rtwpriv wlan0 mp_query
+rtwpriv wlan0 mp_reset_stats
+
+rtwpriv wlan0 mp_stop
+
