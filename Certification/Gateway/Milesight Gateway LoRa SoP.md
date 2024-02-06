@@ -28,15 +28,11 @@ Total TX power = TX power on LoRa Chip + Antenna Gain
 4. Once access the system, use the following commands to operate RF test:
    1. Stop the lora packet forwarder process before start testing.
 
-   ```
-   /etc/init.d/lora_pkt_fwd stop
-   ```
+   `/etc/init.d/lora_pkt_fwd stop`
 
    2. Set the parameter and start TX testing
 
-   ```
-   test_loragw_hal_tx -c 0 -r 1250 -f 868.1 -m LORA -s 12 -b 125 -n 10 -z 255 --ant OTXRX -p 27
-   ```
+   `test_loragw_hal_tx -c 0 -r 1250 -f 868.1 -m LORA -s 12 -b 125 -n 10 -z 255 --ant OTXRX -p 27`
 
    - Frequency Plan:
      - `-f XXX` with unit MHz.
