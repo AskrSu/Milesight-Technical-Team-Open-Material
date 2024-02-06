@@ -22,7 +22,7 @@ Those are the devices known support V3 certification Tool:
 
 - UC500
 - EM320-TH
-- EM300 firmware version above V1.7
+- EM300 firmware version above V1.8
 - WS50X
 - WS301
 - WS202
