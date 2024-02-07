@@ -1,0 +1,24 @@
+### Introduction
+
+LoRaWAN网络目前在全球都得到了广泛的应用，为了满足不同地区不同无线电频谱对于射频信号能量及占空比的限制，“LoRaWAN_Regional_Parameters”中按照地域的不同，对终端设备提出了一定的限制来满足当地的频谱规范。
+
+### Specification Requirement
+
+LoRaWAN_Regional_Parameters_V1.0  
+#### EU868(EU863-870)
+1. Default ERP: 14 dBm
+2. DutyCycle ＜ 1%
+
+#### US915(US902-928)
+
+1. 带宽BW125时最大发射功率30dBm；带宽BW500时最大发射功率26dBm
+2. Dewell Time （驻留时间）＜400ms
+
+　　可见不同频段之间的规定不尽相同，尤其是对于信号时长的规定，有对占空比做限制的，有对单次驻留时间做限制的，也有要求进行Listen Before Talk（LBT）的，所以对于自己使用到的频段，还是要多参考官方的频段规范文档。
+
+
+### Implementation
+
+LoRaWAN协议（V1.0.2）中，MAC命令 0x06-DutyCycleReq 可以实现该功能，通过网关下发指令，节点端会按要求设定占空比上限，发送占空比超出设定值时模块将无法发送数据（谨慎使用）。
+
+设定方式也比较简单，DutyCyclePL低4字节经过运算后得出占空比上限。

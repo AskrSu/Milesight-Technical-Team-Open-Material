@@ -1,0 +1,109 @@
+|Command|Channel|Type|Description|
+|---|---|---|---|
+|Reboot|ff|10|ff|
+|Collect Interval|ff|02|2 Bytes, units: s|
+|Report Interval|ff|03|2 Bytes, units: s|
+|Threshold Alarm|ff|06|9 Bytes, CTRL(1B)+Min(2B)+Max(2B)+00000000(4B)<br>**CTRL:**<br>Bit2~0:<br>000 - disable<br>001 - below(minimum threshold)<br>010 - over(maximum threshod)<br>011 - within<br>100 - below or over<br>Bit 5~3:<br>001 - Temperature<br>010 - Magnet or water leakage<br>Bit 7~6:<br>00 - Reserved|
+|D2D settings|ff|79|4 Bytes, Numbers(1B)+Function(1B)+D2D Command(2B)<br>**Number:**<br>01 - Temperature Threshold Trigger<br>02 - Temperature Threshold does not Trigger<br>03 - Status trigger<br>04 - Status does not trigger<br>**Function:**<br>00 - Only Use LoRaWAN<br>01 - Only Use D2D<br>03 - Use D2D & LoRaWAN Uplink|
+|Data Storage|ff|68|00 - Disable<br>01 - Enable|
+|Data Retransmission|ff|69|00 - Disable<br>01 - Enable|
+|Data Retransmission Interval|ff|6a|3 Bytes<br>Byte 1:00<br>Byte 2-3:interval time, unit:s<br>range:30~1200s(600s by default)|
+
+#### Examples:
+1. Set reporting interval as 20 minutes.   
+> ff 03 b004
+> 
+> |Channel|Type|Value|
+> |---|---|---|
+> |ff|03(Report Interval)|b0 04 => 04 b0 = 1200s = 20 minutes|
+
+如果在客户端模板中，默认上报间隔是10分钟，则10分转换为16进制为`00 0a`，切换位置为`0a 00`
+
+用myDevices的做法，先定义`ff03 0a 00`，然后把1200s按照`writeUIntLE()`，跳过两个B，然后覆写两个B，也就是index=2
+
+星纵都是使用UIntLE()，和别的公司不太一样
+```js
+"use strict";
+
+const channel = Encoder.data.channel;
+const value = Encoder.data.value;
+
+if (channel == "interval") {
+	//let interval = Math.round(value * 60);
+    //Validate whether input is legal
+	if (value > 0) {
+        let payload = Buffer.from("ff030a00", "hex");
+        payload.writeUIntLE(value, 2, 2);
+        /*
+        Index = 0: Start before ff
+        Index = 1: Start before 03
+        Index = 3: Start before 0a
+        OK
+        Size = 1: 0a 
+        Size = 2: 0a00
+        OK
+        */
+        Encoder.send(payload, 85);//Fport = 85
+	}
+}
+
+```
+
+2. Reboot the device.
+> ff 10 ff
+> 
+> |Channel|Type|Value|
+> |---|---|---|
+> |ff|10(Reboot)|ff(Reserved)|
+
+```js
+"use strict";
+
+const channel = Encoder.data.channel;
+const value = Encoder.data.value;
+
+if (channel == "reboot") {
+    //Validate whether input is legal
+    //Define only when value =1, it will reboot.
+	if (value = 1) {
+        let payload = Buffer.from("ff10ff", "hex");
+        Encoder.send(payload, 85);//Fport = 85
+	}
+}
+
+```
+3. Set a temperature threshold as below 15°C or over 30°C.
+> ff 06 0c96002c0100000000
+> 
+> |Channel|Type|Value|
+> |---|---|---|
+> |ff|06(set Threshold Alarm)|CTRL:0c =>00 001 100<br>001=temperature threshold<br>100=below or over<br>Min:9600=>0069=150/10=15℃<br>Max:2c01=>012c=300/10=30℃|
+
+由于有两个以上的value怎么搞？
+
+```js
+"use strict";
+
+const channel = Encoder.data.channel;
+const value = Encoder.data.value;
+
+if (channel == "temp_threshold") {
+	//let interval = Math.round(value * 60);
+    //Validate whether input is legal
+	if (value > 0) {
+        let payload = Buffer.from("ff030a00", "hex");
+        payload.writeUIntLE(value, 2, 2);
+        /*
+        Index = 0: Start before ff
+        Index = 1: Start before 03
+        Index = 3: Start before 0a
+        OK
+        Size = 1: 0a 
+        Size = 2: 0a00
+        OK
+        */
+        Encoder.send(payload, 85);//Fport = 85
+	}
+}
+
+```
