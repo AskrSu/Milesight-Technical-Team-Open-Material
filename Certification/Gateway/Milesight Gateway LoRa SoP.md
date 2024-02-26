@@ -30,7 +30,7 @@ Total TX power = TX power on LoRa Chip + Antenna Gain
 
    `/etc/init.d/lora_pkt_fwd stop`
 
-   2. Set the parameter and start TX testing
+   2. Set the parameter and start TX testing, example(Please do not copy and use directly)
 
    `test_loragw_hal_tx -c 0 -r 1250 -f 868.1 -m LORA -s 12 -b 125 -n 10 -z 255 --ant OTXRX -p 27`
 

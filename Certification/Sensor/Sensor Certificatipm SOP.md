@@ -111,14 +111,16 @@ If you can't connect normally, it may be that the debugging mode is turned on, p
 ## V2 Version
 
 1. Connects to PC via USB or supplied serial cable，If the driver cannot be installed automatically，[Click me](https://www.silabs.com/documents/public/software/CP210x_VCP_Windows.zip)
-2. Open a serial port tool (just be able to send strings, such as xshell, SecureCRT, putty, etc.)
+2. Open a serial port tool (just be able to send strings, such as xshell, SecureCRT, ~~putty~~, etc.)
 3. Fixed frequency commands, such as`fixed_enable -freq 902300000`, Where 902300000 is in Hz, i.e., the transmission frequency is 902.3MHz.
 4. Frequency hopping commands, such as`fixed_enable -hopping 902300000 914900000 200000`
    - 902300000 is in Hz, i.e., the begin transmission frequency is 902.3MHz.
    - 914900000 is in Hz, i.e., the end transmission frequency is 914.9MHz.
    - 200000 Hz is step size, 200KHz
-5. If there is a transmission power requirement, optional commands such as `-power 0`, the higher the value the lower the transmit power, adjust accordingly as needed.
-6. If there is a transmission data rate requirement, optional commands such as `-dr 0`, the larger the value the smaller the spreading factor, adjust accordingly as required
+5. If there is a transmission power requirement, recommended commands such as `-power 0`, the higher the value the lower the transmit power, adjust accordingly as needed.
+   - `-power 16` is the min.
+   - `-power 0` is the default max, which should be used in certification process.
+6. If there is a transmission data rate requirement, recommended commands such as `-dr 0`, the larger the value the smaller the spreading factor, adjust accordingly as required
    - Where the US915 needs to transmit 500KHz, select `-dr 4`.
    - AU915 needs to transmit 500KHz, select `-dr 6`.
 7. If there is a need to send time, optional commands such as `-interval 10000`, time in ms, adjust accordingly if needed.
