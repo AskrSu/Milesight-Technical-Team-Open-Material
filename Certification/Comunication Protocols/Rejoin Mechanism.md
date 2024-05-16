@@ -81,5 +81,10 @@ Note
 2. When you connect Milesight LoRaWAN end devices to Milesight IoT Cloud or gateway embedded network server, the gateway will not display the LinkCheckReq packet and occupy the fcnt.
 3. When device reboots or rejoin mode takes effect, it will send join requests to network server according to this interval: every 15s on first 32 packets, every 1 minute on 33~96 packets and every reporting interval on the last packets.
 
+---
 
+Note: 如果因为重传机制导致丢包，在critical场景建议使用ABP方式，而非OTAA
 
+Reference:
+
+https://support.milesight-iot.com/support/solutions/articles/73000611650-how-rejoin-mode-work-on-milesight-lorawan-nodes
