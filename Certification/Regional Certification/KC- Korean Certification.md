@@ -78,6 +78,7 @@ Check the `-p` parameter, it is dbm should be placed.
 
 So for the limit of 3mW, is equivalant as 4.8dbm, so you should use `-p 4.8` or `-p 4` to test this frequency point.
 
+You can check [here](../Gateway/Milesight%20Gateway%20LoRa%20SoP.md) for further information. 
 ---
 
 For Sensors, refer to the command in method 2: `fixed_enable -freq 920100000` with parameter `-power` where the power is the TX power parameter, you should select based on the table below:
@@ -98,3 +99,5 @@ For KR920, the TX power setting has below relation:
 So for the minimum limit of 3mW requirement for the example 920.1, you can use: `fixed_enable -freq 920100000 -power 5` since power 5 is in 2.5mW.
 
 This method could be somehow in accurate, please try in lower power sometimes.
+
+You can check [here](../Sensor/Sensor%20Certificatipm%20SOP.md) for further information. 
