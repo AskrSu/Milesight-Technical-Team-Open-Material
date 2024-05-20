@@ -54,6 +54,15 @@ To perform bandwith 125khz test, please use DR0 to DR5 for SF12 to SF7 test.
 
 To perform bandwith 500khz test, please use DR6, and DR8 to DR13 for SF12 to SF7 test.
 
+## An Example of sensor EM400-MUD
+
+We are using the CertificationTools software for execute the LAB procedures.
+In general way, the EM400 must execute de test procedure with a bandwidth 500 Khz, and the time transmission must be down to 140ms using the SF between 7 and 12.
+
+You can use the v3 version method, the fix frequency tool with "扩频因子" which is Data Rate DR0 to DR5 for SF12 to SF7 test, or use DR6, and DR8 to DR13 for SF12 to SF7 test.
+
+You can use the v2 version method, use command `fixed_enable -freq 902300000` with corresponding `-dr 6` or others. 
+
 ### Gateway Downlink for AU915
 
 |Frequency|Data Rate(DR) and Bandwidth(BW)|
@@ -68,15 +77,36 @@ To perform bandwith 500khz test, please use DR6, and DR8 to DR13 for SF12 to SF7
 |927.5|SF7BW500 to SF12BW500 (RX1)|
 |923.3|SF12BW500 (RX2)|
 
-## An Example of sensor EM400-MUD
-
-We are using the CertificationTools software for execute the LAB procedures.
-In general way, the EM400 must execute de test procedure with a bandwidth 500 Khz, and the time transmission must be down to 140ms using the SF between 7 and 12.
-
-You can use the v3 version method, the fix frequency tool with "扩频因子" which is Data Rate DR0 to DR5 for SF12 to SF7 test, or use DR6, and DR8 to DR13 for SF12 to SF7 test.
-
-You can use the v2 version method, use command `fixed_enable -freq 902300000` with corresponding `-dr 6` or others. 
+|Data Rate|Configuration|Indicative Physical Bit Rate\[bit/sec\]|
+|---|---|---|
+|0|LoRa:SF12/125kHz|250|
+|1|LoRa:SF11/125kHz|440|
+|2|LoRa:SF10/125kHz|980|
+|3|LoRa:SF9/125kHz|1760|
+|4|LoRa:SF8/125kHz|3125|
+|5|LoRa:SF7/125kHz|5470|
+|6|LoRa:SF8/500kHz|12500|
+|7|RFU||
+|8|LoRa:SF12/500kHz|980|
+|9|LoRa:SF11/500kHz|1760|
+|10|LoRa:SF10/500kHz|3900|
+|11|LoRa:SF9/500kHz|7000|
+|12|LoRa:SF8/500kHz|12500|
+|13|LoRa:SF7/500kHz|21900|
+|14..15|RFU||
 
 ## An Example of Gateway based on ARM: UG65
 
 ## An Example of Gateway based on ESP32: UG63v2/SG50
+
+If you want to send fix frequency channel with a speicified Data Rate, Bandwidth, and for a period of time, say:
+
+923.3MHz, BW = 150KHz，SF = 7 for 5 minutes.
+
+Based on the district rule, we should select DR5 for LoRa SF7 125kHz.
+
+You can use the following command:
+
+`test_tx -c 0 -r 1250 -f 923.3 -m LORA -s 5 -b 125 -n 1 -z 10 --ant OTXRX -p 16`
+
+Since there is no parameter to limit the time, once you send the command, it will start sending the packet until you turn it off.

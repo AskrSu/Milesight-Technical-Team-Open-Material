@@ -162,7 +162,7 @@ Available options
 |-u||Set COM type as USB (default is SPI)|
 |-d|\<path\>|COM path to be used to connect the concentrator=> default path: /dev/spidev0.0|
 |-k|\<uint\>|Concentrator clock source (Radio A or Radio B) \[0..1\]|
-|-c|\<uint\>|RF chain to be used for TX (Radio A or Radio B) [0..1]|
+|-c|\<uint\>|RF chain to be used for TX (Radio A or Radio B) \[0..1\]|
 |-r|\<uint\>|Radio type (1255, 1257, 1250)|
 |-f|\<float\>|Radio TX frequency in MHz|
 |-m|\<str\>|modulation type ['CW', 'LORA', 'FSK']|
