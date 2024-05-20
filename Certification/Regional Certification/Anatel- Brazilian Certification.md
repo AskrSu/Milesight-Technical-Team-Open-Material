@@ -14,15 +14,17 @@ National Telecommunications Agency (ANATEL) Act No. 14448, from December 4, 2017
 
 Based on the LoRaWAN definition and requirement, the end nodes or sensors will use the following frequency to transmit data.
 
-916.8 - SF7BW125 to SF12BW125
-917.0 - SF7BW125 to SF12BW125
-917.2 - SF7BW125 to SF12BW125
-917.4 - SF7BW125 to SF12BW125
-917.6 - SF7BW125 to SF12BW125
-917.8 - SF7BW125 to SF12BW125
-918.0 - SF7BW125 to SF12BW125
-918.2 - SF7BW125 to SF12BW125
-917.5 - SF8BW500
+|Frequency|Data Rate(DR) and Bandwidth(BW)|
+|---|---|
+|916.8|SF7BW125 to SF12BW125|
+|917.0|SF7BW125 to SF12BW125|
+|917.2|SF7BW125 to SF12BW125|
+|917.4|SF7BW125 to SF12BW125|
+|917.6|SF7BW125 to SF12BW125|
+|917.8|SF7BW125 to SF12BW125|
+|918.0|SF7BW125 to SF12BW125|
+|918.2|SF7BW125 to SF12BW125|
+|917.5|SF8BW500|
 
 |Data Rate|Configuration|Indicative Physical Bit Rate\[bit/sec\]|
 |---|---|---|
