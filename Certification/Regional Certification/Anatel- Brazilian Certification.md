@@ -14,6 +14,8 @@ National Telecommunications Agency (ANATEL) Act No. 14448, from December 4, 2017
 
 Based on the LoRaWAN definition and requirement, the end nodes or sensors will use the following frequency to transmit data.
 
+Frequency and Data Rate
+
 |Frequency|Data Rate(DR) and Bandwidth(BW)|
 |---|---|
 |916.8|SF7BW125 to SF12BW125|
@@ -25,6 +27,8 @@ Based on the LoRaWAN definition and requirement, the end nodes or sensors will u
 |918.0|SF7BW125 to SF12BW125|
 |918.2|SF7BW125 to SF12BW125|
 |917.5|SF8BW500|
+
+Data Rate and Bandwidth
 
 |Data Rate|Configuration|Indicative Physical Bit Rate\[bit/sec\]|
 |---|---|---|
@@ -52,15 +56,17 @@ To perform bandwith 500khz test, please use DR6, and DR8 to DR13 for SF12 to SF7
 
 ### Gateway Downlink for AU915
 
-923.3 - SF7BW500 to SF12BW500 (RX1)
-923.9 - SF7BW500 to SF12BW500 (RX1)
-924.5 - SF7BW500 to SF12BW500 (RX1)
-925.1 - SF7BW500 to SF12BW500 (RX1)
-925.7 - SF7BW500 to SF12BW500 (RX1)
-926.3 - SF7BW500 to SF12BW500 (RX1)
-926.9 - SF7BW500 to SF12BW500 (RX1)
-927.5 - SF7BW500 to SF12BW500 (RX1)
-923.3 - SF12BW500 (RX2)
+|Frequency|Data Rate(DR) and Bandwidth(BW)|
+|---|---|
+|923.3|SF7BW500 to SF12BW500 (RX1)|
+|923.9|SF7BW500 to SF12BW500 (RX1)|
+|924.5|SF7BW500 to SF12BW500 (RX1)|
+|925.1|SF7BW500 to SF12BW500 (RX1)|
+|925.7|SF7BW500 to SF12BW500 (RX1)|
+|926.3|SF7BW500 to SF12BW500 (RX1)|
+|926.9|SF7BW500 to SF12BW500 (RX1)|
+|927.5|SF7BW500 to SF12BW500 (RX1)|
+|923.3|SF12BW500 (RX2)|
 
 ## An Example of sensor EM400-MUD
 
