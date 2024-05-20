@@ -53,6 +53,45 @@ Total TX power = TX power on LoRa Chip + Antenna Gain
        - When transmit:Transmit outer, receive inner
        - When no transmit: Receive outer
 
+Available options
+|Parameters|Type|Description|
+|---|---|---|
+|-h||print this help|
+|-u||Set COM type as USB (default is SPI)|
+|-d|\<path\>|COM path to be used to connect the concentrator=> default path: /dev/spidev0.0|
+|-k|\<uint\>|Concentrator clock source (Radio A or Radio B) \[0..1\]|
+|-c|\<uint\>|RF chain to be used for TX (Radio A or Radio B) [0..1]|
+|-r|\<uint\>|Radio type (1255, 1257, 1250)|
+|-f|\<float\>|Radio TX frequency in MHz|
+|-m|\<str\>|modulation type ['CW', 'LORA', 'FSK']|
+|-o|\<int\>|CW frequency offset from Radio TX frequency in kHz \[-65..65\]|
+|-s|\<uint\>|LoRa datarate 0:random, \[5..12\]|
+|-b|\<uint\>|LoRa bandwidth in khz 0:random, \[125, 250, 500\]|
+|-l|\<uint\>|FSK/LoRa preamble length, \[6..65535\]|
+|-n|\<uint\>|Number of packets to be sent|
+|-z|\<uint\>|size of packets to be sent 0:random, \[9..255\]|
+|-t|\<uint\>|TX mode timestamped with delay in ms. If delay is 0, TX mode GPS trigger|
+|-p|\<int\>|RF power in dBm|
+|-i||Send LoRa packet using inverted modulation polarity|
+|-j||Set radio in single input mode (SX1250 only)|
+||||
+|--fdev|\<uint\>|FSK frequency deviation in kHz \[1:250\]|
+|--br|\<float\>|FSK bitrate in kbps \[0.5:250\]|
+||||
+|--pa|\<uint\>|PA gain SX125x:\[0..3\], SX1250:\[0,1\]|
+|--dig|\<uint\>|sx1302 digital gain for sx125x \[0..3\]|
+|--dac|\<uint\>|sx125x DAC gain \[0..3\]|
+|--mix|\<uint\>|sx125x MIX gain \[5..15\]|
+|--pwid|\<uint\>|sx1250 power index \[0..22\]|
+||||
+|--nhdr||Send LoRa packet with implicit header|
+||||
+|--loop||Number of loops for HAL start/stop (HAL unitary test)|
+||||
+|--fdd||Enable Full-Duplex mode (CN490 reference design)|
+
+Command returned non-zero error code: 0xffffffff (ESP_FAIL)
+
 ### Note
 
 1. Make sure stop the packet forwarding process before the frequency hopping test.
