@@ -33,7 +33,7 @@ Use USB Type-C to connect the device to the test computer.
 
 Keep holding button 1, then short press button 2 to enter the constant frequency test mode.
 
-![img5](http://ursalink-resource-center.oss-us-west-1.aliyuncs.com/Gateway_RFtest/ESP32/LoRa/img/5.jpg)
+![img5](http://ursalink-resource-center.oss-us-west-1.aliyuncs.com/Gateway_RFtest/ESP32/LoRa/img/5png.png)
 
 ### For SG50
 
