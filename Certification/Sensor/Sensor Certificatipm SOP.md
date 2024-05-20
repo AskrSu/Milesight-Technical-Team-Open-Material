@@ -122,7 +122,8 @@ If you can't connect normally, it may be that the debugging mode is turned on, p
    - `-power 0` is the default max, which should be used in certification process.
 6. If there is a transmission data rate requirement, recommended commands such as `-dr 0`, the larger the value the smaller the spreading factor, adjust accordingly as required
    - Where the US915 needs to transmit 500KHz, select `-dr 4`.
-   - AU915 needs to transmit 500KHz, select `-dr 6`.
+   - Where the AU915 needs to transmit 500KHz, select `-dr 6`. Like Brazilian Anatel certificate.
+   - The sensor frequency data rate(DR) and spreading factor(SF) you can refer to the [LoRaWAN Region 1.0.3 Parameters, pg.38](https://lora-alliance.org/wp-content/uploads/2020/11/lorawan_regional_parameters_v1.0.3reva_0.pdf).
 7. If there is a need to send time, optional commands such as `-interval 10000`, time in ms, adjust accordingly if needed.
 8. Wait 10s for stable transmission
 
@@ -211,7 +212,7 @@ Here are the translation:
 |发射频率|Transmit Frequency/Fixed||Depend of your Channel Plan<br>e.g.,923300000 for 923.3MHz|
 |发射间隔|Transmit interval(ms)||Recommend to be more than 5000ms|
 |跳频设置|Frequency Hopping Settings|||
-|扩频因子|Spreading Factor/Data Rate||0 as DR 0<br>Refer to Regional Paramater|
+|扩频因子|Spreading Factor/Data Rate||0 as DR 0<br>SF can refer to [LoRaWAN Region 1.0.3 Parameters](https://lora-alliance.org/wp-content/uploads/2020/11/lorawan_regional_parameters_v1.0.3reva_0.pdf)|
 |发射功率|Transmit Power TXpower|Number of db reduced<br>0 means full transmit power|0 in default|
 |跳频模式|Frequency Hopping Mode|0 for random hopping<br>1 for sequential hopping|0 in default<br>Depends on need|
 |发射间隔|Transmit interval(ms)||Recommend to be more than 5000ms|
