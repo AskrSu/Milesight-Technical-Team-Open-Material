@@ -76,3 +76,7 @@ In general way, the EM400 must execute de test procedure with a bandwidth 500 Kh
 You can use the v3 version method, the fix frequency tool with "扩频因子" which is Data Rate DR0 to DR5 for SF12 to SF7 test, or use DR6, and DR8 to DR13 for SF12 to SF7 test.
 
 You can use the v2 version method, use command `fixed_enable -freq 902300000` with corresponding `-dr 6` or others. 
+
+## An Example of Gateway based on ARM: UG65
+
+## An Example of Gateway based on ESP32: UG63v2/SG50
