@@ -4,11 +4,11 @@ Thank you for reading this document.
 
 If you need any more content, please reach us via iot.support@milesight.com
 
-## Regulartion of RF
+## KR920 is used in Korea
 
 In Korean, the KR920 channel plan is used, you can refer to the below table to find the corresponding power limit with the frequency point.  
 
-Noted that only channel **16 to 30** should be tested in LoRa compliance channel plan.
+### KC Certification Requirement
 
 |Channel|A reference value|Note|
 |---|---|---|
@@ -68,18 +68,65 @@ There is a quick sheet for your reference:
 |14|25|
 |23|200|
 
+### LoRa Alliance Technical Speicification v1.0.3 Definition of LoRaWAN KR920
 
+Noted that only channel **20 to 32** should be tested in LoRa compliance channel plan, and the 10db of power output is the limit. You can check on: [LoRaWAN Region 1.0.3 Parameters, pg.53](https://lora-alliance.org/wp-content/uploads/2020/11/lorawan_regional_parameters_v1.0.3reva_0.pdf)
 
----
+|Center frequency (MHz)|Bandwidth (kHz)|Max EIRP<br>output power(dBm)<br>For end-device|Max EIRP<br>output power(dBm)<br>For gateway|
+|---|---|---|---|
+|920.9|125|10|23|
+|921.1|125|10|23|
+|921.3|125|10|23|
+|921.5|125|10|23|
+|921.7|125|10|23|
+|921.9|125|10|23|
+|922.1|125|14|23|
+|922.3|125|14|23|
+|922.5|125|14|23|
+|922.7|125|14|23|
+|922.9|125|14|23|
+|923.1|125|14|23|
+|923.3|125|14|23|
 
-For Gateways, refer to the command: `test_loragw_hal_tx -c 0 -r 1250 -f 920.1 -m LORA -s 12 -b 125 -n 10 -z 255 --ant OTXRX -p 4.8`
+|DataRate|Configuration|Indicative physical bit rate \[bit/s\]|
+|---|---|---|
+|0|LoRa: SF12 / 125 kHz|250|
+|1|LoRa: SF11 / 125 kHz|440|
+|2|LoRa: SF10 / 125 kHz|980|
+|3|LoRa: SF9 / 125 kHz|1760|
+|4|LoRa: SF8 / 125 kHz|3125|
+|5|LoRa: SF7 / 125 kHz|5470|
+|6..15|RFU||
+
+|TXPower|Configuration (EIRP)|
+|---|---|
+|0|Max EIRP|
+|1|Max EIRP – 2dB|
+|2|Max EIRP – 4dB|
+|3|Max EIRP – 6dB|
+|4|Max EIRP – 8dB|
+|5|Max EIRP – 10dB|
+|6|Max EIRP – 12dB|
+|7|Max EIRP – 14dB|
+|8..15|RFU|
+
+## Gateway
+
+For Gateways, If you want to test the RF power test with `Frequency Channel = 920.9`, with `SF=7` to `SF=12`, `bandwidth = 125khz`.
+
+So by the LoRa definition, power should be within 23db, and data rate from DR0 to DR5, means SF12 to SF7.
+
+Take SF8 for example, the data rate is DR4.
+
+Refer to the command: `test_loragw_hal_tx -c 0 -r 1250 -f 920.9 -m LORA -s 4 -b 125 -n 10 -z 255 --ant OTXRX -p 4.8`
 
 Check the `-p` parameter, it is dbm should be placed.
 
 So for the limit of 3mW, is equivalant as 4.8dbm, so you should use `-p 4.8` or `-p 4` to test this frequency point.
 
 You can check [here](../Gateway/Milesight%20Gateway%20LoRa%20SoP.md) for further information. 
----
+
+## Sensors
 
 For Sensors, refer to the command in method 2: `fixed_enable -freq 920100000` with parameter `-power` where the power is the TX power parameter, you should select based on the table below:
 
